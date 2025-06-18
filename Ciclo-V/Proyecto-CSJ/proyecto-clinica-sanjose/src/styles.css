@@ -1,0 +1,225 @@
+html {
+  font-family: 'Poppins', sans-serif;
+}
+
+body {
+  margin: 0;
+  font-family: 'Poppins', sans-serif;
+}
+
+/* styles.css o en tu archivo de estilos global */
+.swal2-container {
+  z-index: 9999 !important;
+  /* Un valor muy alto para garantizar que sobresalga */
+}
+
+/* Loading */
+/* From Uiverse.io by adamgiebl */ 
+.loader {
+  position: fixed;
+  width: 95%;
+  height: 80%;
+}
+.dots-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100%;
+  width: 100%;
+}
+
+.dot {
+  height: 20px;
+  width: 20px;
+  margin-right: 10px;
+  border-radius: 10px;
+  background-color: #b3d4fc;
+  animation: pulse 1.5s infinite ease-in-out;
+}
+
+.dot:last-child {
+  margin-right: 0;
+}
+
+.dot:nth-child(1) {
+  animation-delay: -0.3s;
+}
+
+.dot:nth-child(2) {
+  animation-delay: -0.1s;
+}
+
+.dot:nth-child(3) {
+  animation-delay: 0.1s;
+}
+
+@keyframes pulse {
+  0% {
+    transform: scale(0.8);
+    background-color: #b3d4fc;
+    box-shadow: 0 0 0 0 rgba(178, 212, 252, 0.7);
+  }
+
+  50% {
+    transform: scale(1.2);
+    background-color: #6793fb;
+    box-shadow: 0 0 0 10px rgba(178, 212, 252, 0);
+  }
+
+  100% {
+    transform: scale(0.8);
+    background-color: #b3d4fc;
+    box-shadow: 0 0 0 0 rgba(178, 212, 252, 0.7);
+  }
+}
+
+/* Eliminar flechas en los input number */
+/* Para Chrome, Safari, Edge y Opera */
+input[type="number"]::-webkit-inner-spin-button,
+input[type="number"]::-webkit-outer-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+/* Para Firefox */
+input[type="number"] {
+  appearance: textfield;
+}
+
+/* Segmented Button */
+/* From Uiverse.io by Ghost-aft */ 
+.radio-input input {
+  display: none;
+}
+
+.radio-input {
+  --container_width: 350px;
+  position: relative;
+  display: flex;
+  align-items: center;
+  border-radius: 10px;
+  background-color: #fff;
+  color: #494949;
+  width: var(--container_width);
+  overflow: hidden;
+  border: 1px solid rgba(53, 52, 52, 0.226);
+}
+
+.radio-input label {
+  width: 100%;
+  padding: 10px;
+  cursor: pointer;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 1;
+  font-weight: 600;
+  letter-spacing: -1px;
+  font-size: 14px;
+}
+
+.selection {
+  display: none;
+  position: absolute;
+  height: 100%;
+  width: calc(var(--container_width) / 2);
+  z-index: 0;
+  left: 0;
+  top: 0;
+  transition: 0.15s ease;
+}
+
+.radio-input label:has(input:checked) {
+  color: #fff;
+}
+
+.radio-input label:has(input:checked) ~ .selection {
+  background-color: rgb(51, 145, 48);
+  display: inline-block;
+}
+
+.radio-input label:nth-child(1):has(input:checked) ~ .selection {
+  transform: translateX(calc(var(--container_width) * 0 / 2));
+}
+
+.radio-input label:nth-child(2):has(input:checked) ~ .selection {
+  transform: translateX(calc(var(--container_width) * 1 / 2));
+}
+
+/* Search Input */
+/* From Uiverse.io by ErzenXz */ 
+.input {
+  width: 100%;
+  max-width: 300px;
+  height: 45px;
+  padding: 12px;
+  border-radius: 12px;
+  border: 1.5px solid lightgrey;
+  outline: none;
+  transition: all 0.3s cubic-bezier(0.19, 1, 0.22, 1);
+  box-shadow: 0px 0px 20px -18px;
+}
+
+.input:hover {
+  border: 2px solid lightgrey;
+  box-shadow: 0px 0px 20px -17px;
+}
+
+.input:active {
+  transform: scale(0.95);
+}
+
+.input:focus {
+  border: 2px solid grey;
+}
+
+/* Loading Modal */
+/* From Uiverse.io by G4b413l */ 
+.line-wobble {
+  --uib-size: 80px;
+  --uib-speed: 1.55s;
+  --uib-color: black;
+  --uib-line-weight: 5px;
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: var(--uib-line-weight);
+  width: var(--uib-size);
+  border-radius: calc(var(--uib-line-weight) / 2);
+  overflow: hidden;
+  transform: translate3d(0, 0, 0);
+ }
+ 
+ .line-wobble::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  background-color: var(--uib-color);
+  opacity: 0.1;
+ }
+ 
+ .line-wobble::after {
+  content: '';
+  height: 100%;
+  width: 100%;
+  border-radius: calc(var(--uib-line-weight) / 2);
+  animation: wobble var(--uib-speed) ease-in-out infinite;
+  transform: translateX(-90%);
+  background-color: var(--uib-color);
+ }
+ 
+ @keyframes wobble {
+  0%,
+   100% {
+   transform: translateX(-90%);
+  }
+ 
+  50% {
+   transform: translateX(90%);
+  }
+ }
+ 
