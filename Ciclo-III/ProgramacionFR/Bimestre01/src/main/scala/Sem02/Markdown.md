@@ -1,0 +1,187 @@
+# Taller Grupal  1
+## Funciones, funciones sin nombre y rangos
+
+**Semana**: 2
+
+**Objetivos**:
+
+- Aplicar conocimientos básicos sobre funciones
+- Comprender la características de Higher Order Functions o Funciones de Alto Orden
+- Transformar funciones a funciones sin nombre y asignarlos a variables
+- Usar algunas funciones de la clase Range
+
+### Descripción:
+
+Antes de empezar le recomiendo utilizar scala-cli, a través del comando
+
+```shell
+scala-cli repl
+```
+
+Debe crear una archivo con la extensión .sc, en donde pegará el código que necesite entregar, a ese archivo le denominaremos worksheet.
+
+En este taller debe realizar algunos ejercicios los mismos que buscan que ponga en práctica lo aprendido en las horas de clases en donde se revisó conceptos como: funciones, funciones de alto orden y sus características, principalmente funciones que se asignan a variables.
+
+Muchos de los ejercicios incluyen código y algunos otros respuestas textuales, es por esto que para este taller, ustedes deben trabajar así: usando este mismo documento (el código fuente en markdown), responda a todas las preguntas, es decir, ubique el código y/o el texto según corresponda a la respuesta de cada pregunta, recuerde, que deben copiar el código que usó para responder a las preguntas en el worksheet. Recuerden que necesitará ambos documentos. Finalmente, al culminar con la actividad, deben presentarla a su docente.
+
+Los ejercicios que deben desarrollar son los siguientes:
+
+1. Funciones que se asignan a variables
+
+Analice la siguiente función lambda que también se denomina como función sin nombre:
+
+```scala
+(a: Int, b: Int) => if (a >= b) a else b
+```
+
+Responda a las siguiente preguntas, respecto a la función sin nombre anterior:
+
+- ¿El if que se encuentra es una estructura de control o una expresión?
+
+  if es una estructura de control.
+
+- ¿Qué devuelve la función?
+
+  Retorna el número con mayor valor.
+
+- ¿Se puede especificar el tipo de dato que devuelve la función sin nombre? Muestre ejemplos de los intentos realizados
+
+  Si, se puede poniendo dos puntos al final de la funcion y especificando el tipo de dato
+  <code>
+  scala> def funcion (a: Int, b: Int): Int  => if (a >= b) a else b
+  -- [E040] Syntax Error: ---------------------------------------------------------------------------------------------------------------------------
+  1 |def funcion (a: Int, b: Int): Int  => if (a >= b) a else b
+  |                                      ^^
+  |                                      an identifier expected, but 'if' found
+  |
+  | longer explanation available when compiling with `-explain`
+
+scala> (a: Int, b: Int) => if (a >= b) a else b: Int
+|
+val res1: (Int, Int) => Int = Lambda$1432/0x00000008007f1040@674ed201
+
+</code>
+
+- ¿Qué devuelve el siguiente código? <code>((a: Int, b: Int) => if (a >= b) a else b)(3, 2)</code>
+
+  Devuelve el valor entero 3:
+
+<code>
+scala> ((a: Int, b: Int) => if (a >= b) a else b)(3, 2)
+val res2: Int = 3
+</code>
+
+- Asigne la función sin nombre a un valor (_val_) e invoque a la misma.
+  <code>
+  val ejemplo = (a: Int, b: Int) => if (a >= b) a else b
+  ejemplo(6,4)
+  </code>
+
+- ¿Se puede asignar una función sin nombre a una variable (**var**)? Muestre los ejemplos de sus intentos.
+
+  Si, si se puede
+  <code>
+  scala> var ejemplo = (a: Int, b: Int) => if (a >= b) a else b
+  var ejemplo: (Int, Int) => Int = Lambda$1350/0x0000000800743040@347b370c
+
+scala> ejemplo(4,5)
+val res0: Int = 5
+</code>
+
+2. Usando como base a la siguiente función:
+
+```scala
+def countWithoutOpenVowels(word : String) : Int = { 
+   word.toLowerCase.replaceAll("a", "").replaceAll("e", "").replaceAll("o", "").length
+}
+```
+Responda a las siguientes preguntas:
+
+- a) ¿Es una función con nombre?
+
+  Si, es una función con nombre "countWithoutOpenVowels"
+
+- b) ¿Cuántos parámetros recibe la función?
+
+  La función recibe un parametro llamado "word".
+
+- c) ¿Cuál o cuáles son los tipos de datos de el o de los parámetros que recibe la función?
+
+  El tipo de dato de el parámetro "word" es cadena (String).
+
+- d) ¿Cuál es el tipo de dato que devuelve la función?
+
+  La función retorna un tipo de dato entero "Int".
+
+- e) ¿El uso de las llaves es necesario? (Demuestren su respuesta)
+
+  El uso de las llaves es opcional:
+
+scala> def countWithoutOpenVowels(word : String) : Int =
+word.toLowerCase.replaceAll("a", "").replaceAll("e", "").replaceAll("o", "").length
+def countWithoutOpenVowels(word: String): Int
+
+- f) Qué salida genera la función si se invoca con los siguientes valores:
+    - Loja
+      val res0: Int = 2
+
+    - Universidad
+      val res0: Int = 9
+
+    - Particular
+      val res0: Int = 8
+
+
+3. Modifiquen la función anterior para que ahora devuelva el texto que recibe como párametro, pero sin los vocales cerradas (i y u)
+
+4. Transformen a las funciones de los puntos 2 y 3 en funciones sin nombre.
+
+5. Ejecuten cada una de las funciones sin nombre, creadas en el punto 3, con los parámetros que se listan en el punto 2 y literal f.
+
+6. Usando como base el código del punto 2, traten de crear una función sin nombre que reciba como párametros el texto y una letra que se desea omitir (reemplazar por cadena vacía) y que devuelve la longitud del nuevo texto.
+
+7. Modifiquen el código del punto 6 para que esta vez devuelve _true_ si la longitud del texto (valor devuelto en función anterior) es par, caso contrario devuelva _false_.
+
+8. Si recuerdan, en la actividad de práctica y experimentación de la semana pasada (ver archivo [b1s1.md](b1s1.md)) se usaron varias funciones, liste aquellas funciones (escritas en _Scala_) que reciben como parámetro a otra función sin nombre.
+
+9. Cuando se tiene un rango de datos o una lista de valores, existe un método que se llama _max_ que devuelve el mayor de los valores, así como se muestra en el siguiente código de ejemplo:
+
+```scala
+
+(1 to 10).max
+val words = List("Universidad", "Técnica", "Particular", "de", "Loja")
+words.max
+
+```
+
+Como de seguro se percató, se usa el orden natural del rango o lista de datos, es decir ascendente. Pero, si se quiere modificar ese criterio de ordenamiento, por ejemplo, en el caso de lista de palabras, que en lugar de usar el orden alfabético se use como criterio la longitud de cada palabra. Para esos casos se usará _maxBy_, como se muestra en el siguiente código:
+
+
+```scala
+words.maxBy(_.length)
+```
+
+Con esos antecedente, suponga que necesita trabajar con una lista de estudiantes, de los cuáles únicamente se usará el nombre y la edad. El siguiente código muestra en código la creación de los clase estudiante (_case class_) y como se agrupan en una lista.
+
+```scala
+case class Estudiante(nombre: String, edad: Int)
+val estudiantes = List(Estudiante("Daniel", 21), Estudiante("Janneth", 23), Estudiante("Verónica", 22), Estudiante("Ramiro", 24))
+
+```
+
+Con base al código anterior, trabaje en los siguientes puntos:
+
+* ¿Qué sucede si ejecuta la siguiente sentencia? _estudiantes.max_
+  Da error.
+* ¿Qué sucede si ejecuta la siguiente sentencia? _estudiantes.maxBy(e => e.edad)_
+  val res0: Estudiante = Estudiante(Ramiro,24)
+* Reemplace la función sin nombre que se encuentra en el punto anterior, por una función con nombre definida usando la palabra _def_ y todos los elementos que esto implica.
+
+
+### Calificación:
+
+La tarea se completa cuando usted cargue ambos archivos en: https://classroom.github.com/a/OuGdrgKg
+
+Tal como se le explicó anteriormente, los talleres se calificarán de la siguiente manera:
+- 10 puntos si presenta en el horario de prácticas y experimentación.
+- 7 puntos presenta en el horario de tutoría
