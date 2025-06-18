@@ -1,0 +1,73 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="5C727F5C-B195-1234-22D6-95D0038B7B33" name="Estudiante">
+<createdBy>Denis</createdBy>
+<createdTime>2024-05-08 16:19:30 UTC</createdTime>
+<ownerDesignName>EscuelaArtesMarciales</ownerDesignName>
+<ordsAlias>table_8</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="idEstudiante" id="030EBEBE-8CC7-5FF3-389E-CEFA319FF0E5">
+<createdBy>Denis</createdBy>
+<createdTime>2024-05-08 16:20:22 UTC</createdTime>
+<ownerDesignName>EscuelaArtesMarciales</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>10</dataTypeSize>
+<ownDataTypeParameters>10,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="observaciones" id="66AE53EA-48E6-7C69-A0C1-3520CC4CC081">
+<createdBy>Denis</createdBy>
+<createdTime>2024-05-10 03:39:49 UTC</createdTime>
+<ownerDesignName>EscuelaArtesMarciales</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>500</dataTypeSize>
+<ownDataTypeParameters>500,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Persona_cedula" id="BA9AE6CD-70CE-BD8E-C0BA-D26CF8E7994A">
+<createdBy>oliversaraguro</createdBy>
+<createdTime>2024-05-11 02:03:33 UTC</createdTime>
+<ownerDesignName>EscuelaArtesMarciales</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>15</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="450F7B8B-5B8F-A6ED-7C7D-10D358748B57" referredColumn="6BCA37D2-8960-9D12-3336-546407D134D9"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="64330BCB-4E36-E5E0-78A5-D56C243D1386" name="Estudiante_PK">
+<createdBy>Denis</createdBy>
+<createdTime>2024-05-08 16:20:22 UTC</createdTime>
+<ownerDesignName>EscuelaArtesMarciales</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="030EBEBE-8CC7-5FF3-389E-CEFA319FF0E5"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="06DD919F-4D70-22D0-2D7C-00E7C8AE176A" name="Estudiante_Persona_FK">
+<createdBy>oliversaraguro</createdBy>
+<createdTime>2024-05-11 02:03:33 UTC</createdTime>
+<ownerDesignName>EscuelaArtesMarciales</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="BA9AE6CD-70CE-BD8E-C0BA-D26CF8E7994A"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

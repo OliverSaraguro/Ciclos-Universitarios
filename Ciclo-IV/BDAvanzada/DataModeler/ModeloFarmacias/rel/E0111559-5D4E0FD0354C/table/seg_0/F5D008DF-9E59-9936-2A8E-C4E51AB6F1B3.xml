@@ -1,0 +1,58 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="F5D008DF-9E59-9936-2A8E-C4E51AB6F1B3" name="Laboratorio">
+<createdBy>oliversaraguro</createdBy>
+<createdTime>2024-04-19 20:22:40 UTC</createdTime>
+<ownerDesignName>ModeloFarmacias</ownerDesignName>
+<ordsAlias>table_10</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="idLaboratorio" id="C2FB851B-6294-6E75-4E81-4C88304A0952">
+<createdBy>oliversaraguro</createdBy>
+<createdTime>2024-04-19 20:23:46 UTC</createdTime>
+<ownerDesignName>ModeloFarmacias</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="nombreLab" id="AF407AB5-3A77-D9C0-D4C1-0396A7C5775C">
+<createdBy>oliversaraguro</createdBy>
+<createdTime>2024-04-19 20:23:46 UTC</createdTime>
+<ownerDesignName>ModeloFarmacias</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>150</dataTypeSize>
+<ownDataTypeParameters>150,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="direccion" id="14943F58-E7B4-001B-1388-F4C770CF07B3">
+<createdBy>oliversaraguro</createdBy>
+<createdTime>2024-04-20 19:44:48 UTC</createdTime>
+<ownerDesignName>ModeloFarmacias</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>300</dataTypeSize>
+<ownDataTypeParameters>300,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="3F783859-6EDE-384D-75D4-2AC4799E290B" name="laboratorio_PK">
+<createdBy>oliversaraguro</createdBy>
+<createdTime>2024-04-19 20:23:46 UTC</createdTime>
+<ownerDesignName>ModeloFarmacias</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="C2FB851B-6294-6E75-4E81-4C88304A0952"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

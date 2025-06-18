@@ -1,0 +1,13 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<OSDM_Design class="oracle.dbtools.crest.model.design.Design" name="EscuelaArtesMarciales" id="7088971C-07CC-2FDE-CD33-657A18076C17" version="3.5">
+<createdBy>Denis</createdBy>
+<createdTime>2024-05-08 02:23:31 UTC</createdTime>
+<ownerDesignName>TRABAJO GRUPAL</ownerDesignName>
+<capitalNames>false</capitalNames>
+<designId>7088971C-07CC-2FDE-CD33-657A18076C17</designId>
+<usedDesignStorageDescriptors>
+<designDescr class="oracle.dbtools.crest.model.design.Design$DesignStorageDesc" id="967E7C92-01C1-E341-B54C-75E44F388E05">
+<designStoragePath>/TRABAJO GRUPAL</designStoragePath>
+</designDescr>
+</usedDesignStorageDescriptors>
+</OSDM_Design>

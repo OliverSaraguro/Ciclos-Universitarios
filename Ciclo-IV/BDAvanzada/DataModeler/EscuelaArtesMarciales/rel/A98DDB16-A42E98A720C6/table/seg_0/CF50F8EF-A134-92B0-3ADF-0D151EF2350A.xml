@@ -1,0 +1,58 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="CF50F8EF-A134-92B0-3ADF-0D151EF2350A" name="Lugar">
+<createdBy>Denis</createdBy>
+<createdTime>2024-05-08 02:55:41 UTC</createdTime>
+<ownerDesignName>EscuelaArtesMarciales</ownerDesignName>
+<ordsAlias>table_13</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="idSalon" id="4A7940A2-171A-5B2D-2BC5-F89D6F7861C4">
+<createdBy>Denis</createdBy>
+<createdTime>2024-05-08 02:56:24 UTC</createdTime>
+<ownerDesignName>EscuelaArtesMarciales</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20</dataTypeSize>
+<ownDataTypeParameters>20,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="nombre" id="139EBC94-853E-5BFC-D467-0731B9D895A8">
+<createdBy>Denis</createdBy>
+<createdTime>2024-05-08 02:56:24 UTC</createdTime>
+<ownerDesignName>EscuelaArtesMarciales</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>30</dataTypeSize>
+<ownDataTypeParameters>30,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="520D7412-FDF9-A3E4-2A2C-BB26324A8F2D" name="Salon_PK">
+<createdBy>Denis</createdBy>
+<createdTime>2024-05-08 02:56:24 UTC</createdTime>
+<ownerDesignName>EscuelaArtesMarciales</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="4A7940A2-171A-5B2D-2BC5-F89D6F7861C4"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="5C925143-8097-3624-8847-8D1FC426EE07" name="Lugar__UN">
+<createdBy>oliversaraguro</createdBy>
+<createdTime>2024-05-11 04:02:02 UTC</createdTime>
+<ownerDesignName>EscuelaArtesMarciales</ownerDesignName>
+<indexState>Unique Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="4A7940A2-171A-5B2D-2BC5-F89D6F7861C4"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

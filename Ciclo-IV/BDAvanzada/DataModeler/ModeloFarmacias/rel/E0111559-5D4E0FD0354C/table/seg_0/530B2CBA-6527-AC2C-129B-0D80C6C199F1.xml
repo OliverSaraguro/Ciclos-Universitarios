@@ -1,0 +1,145 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="530B2CBA-6527-AC2C-129B-0D80C6C199F1" name="Persona">
+<createdBy>oliversaraguro</createdBy>
+<createdTime>2024-04-19 20:03:35 UTC</createdTime>
+<ownerDesignName>ModeloFarmacias</ownerDesignName>
+<ordsAlias>table_3</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="cedula" id="9A2D99E2-3356-3600-C0CA-3AF7B0DC7B63">
+<createdBy>oliversaraguro</createdBy>
+<createdTime>2024-04-19 20:07:35 UTC</createdTime>
+<ownerDesignName>ModeloFarmacias</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="nombres" id="71D6C1CB-AC04-A6E1-6752-692134373498">
+<createdBy>oliversaraguro</createdBy>
+<createdTime>2024-04-19 20:07:35 UTC</createdTime>
+<ownerDesignName>ModeloFarmacias</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>75</dataTypeSize>
+<ownDataTypeParameters>75,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="apellidos" id="DE7E5D86-886F-2C75-2D6D-E1A741896DA5">
+<createdBy>oliversaraguro</createdBy>
+<createdTime>2024-04-19 20:07:35 UTC</createdTime>
+<ownerDesignName>ModeloFarmacias</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>75</dataTypeSize>
+<ownDataTypeParameters>75,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="genero" id="BE47E87E-BA37-9D84-BB08-3739DD49D92B">
+<createdBy>oliversaraguro</createdBy>
+<createdTime>2024-04-20 20:26:15 UTC</createdTime>
+<ownerDesignName>ModeloFarmacias</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="experiencialLab" id="3A1B3D11-DC96-06C8-07C6-216FCD052220">
+<createdBy>oliversaraguro</createdBy>
+<createdTime>2024-04-19 20:07:35 UTC</createdTime>
+<ownerDesignName>ModeloFarmacias</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="telefono1" id="A164A339-681B-C40F-6045-A9E67EF06BB4">
+<createdBy>oliversaraguro</createdBy>
+<createdTime>2024-04-19 20:07:35 UTC</createdTime>
+<ownerDesignName>ModeloFarmacias</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="telefono2" id="125DE547-3E78-C3A2-4062-71E7D4C6B7C6">
+<createdBy>oliversaraguro</createdBy>
+<createdTime>2024-04-19 20:07:35 UTC</createdTime>
+<ownerDesignName>ModeloFarmacias</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="email" id="9B0C9E41-7DF3-0DED-DCB6-323FA3B2031A">
+<createdBy>oliversaraguro</createdBy>
+<createdTime>2024-04-19 20:07:35 UTC</createdTime>
+<ownerDesignName>ModeloFarmacias</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100</dataTypeSize>
+<ownDataTypeParameters>100,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="titulo" id="9223A89E-3879-8096-D0A8-35B0914D80DA">
+<createdBy>oliversaraguro</createdBy>
+<createdTime>2024-04-19 20:07:35 UTC</createdTime>
+<ownerDesignName>ModeloFarmacias</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100</dataTypeSize>
+<ownDataTypeParameters>100,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Farmacia_idFarmacia" id="1B8FC7F7-19E5-3B50-4DAC-2020B9A65985">
+<createdBy>oliversaraguro</createdBy>
+<createdTime>2024-04-19 23:09:10 UTC</createdTime>
+<ownerDesignName>ModeloFarmacias</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="C1E0C51A-5935-99E2-F22A-2C5EED7D55A2" referredColumn="7A6F6040-35ED-7C34-0310-79415ABAF5D3"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="68195DFE-E11F-8501-181A-6EBEA9D0FF50" name="Persona_PK">
+<createdBy>oliversaraguro</createdBy>
+<createdTime>2024-04-19 20:07:35 UTC</createdTime>
+<ownerDesignName>ModeloFarmacias</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="9A2D99E2-3356-3600-C0CA-3AF7B0DC7B63"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="05D62984-7D20-2153-FF36-617C8A4099AA" name="Persona_Farmacia_FK">
+<createdBy>oliversaraguro</createdBy>
+<createdTime>2024-04-19 23:09:10 UTC</createdTime>
+<ownerDesignName>ModeloFarmacias</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="1B8FC7F7-19E5-3B50-4DAC-2020B9A65985"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

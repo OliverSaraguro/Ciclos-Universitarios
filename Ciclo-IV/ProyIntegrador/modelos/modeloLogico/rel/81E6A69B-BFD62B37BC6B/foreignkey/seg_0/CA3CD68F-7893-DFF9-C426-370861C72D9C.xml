@@ -1,0 +1,16 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="CA3CD68F-7893-DFF9-C426-370861C72D9C" containerWithKeyObject="39E802AA-C088-5088-D7FA-1CB879B3EBDC" localFKIndex="7DB8E844-2AAD-D19C-2C40-6F86DE4E9BCC" name="Arma_FK">
+<createdBy>oliversaraguro</createdBy>
+<createdTime>2024-06-26 15:07:56 UTC</createdTime>
+<ownerDesignName>modeloLogico</ownerDesignName>
+<referredTableLongName>Arma</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>E7A94564-CB08-22F3-039D-74E376A37C3F</referredTableID>
+<keyObject>0AE2EDC7-EA4A-2F55-F6AB-285A4DFFC3FE</keyObject>
+<referredKeyID>0AE2EDC7-EA4A-2F55-F6AB-285A4DFFC3FE</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>codigo</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

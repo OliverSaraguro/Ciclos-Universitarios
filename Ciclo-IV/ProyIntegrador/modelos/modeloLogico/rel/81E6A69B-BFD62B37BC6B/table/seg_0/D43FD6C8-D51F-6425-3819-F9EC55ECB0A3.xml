@@ -1,0 +1,71 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="D43FD6C8-D51F-6425-3819-F9EC55ECB0A3" name="Canton">
+<createdBy>oliversaraguro</createdBy>
+<createdTime>2024-06-26 15:45:13 UTC</createdTime>
+<ownerDesignName>modeloLogico</ownerDesignName>
+<ordsAlias>table_10</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="codigo" id="EEB273B6-DF64-5ADA-3795-CF72DA9EA62F">
+<createdBy>oliversaraguro</createdBy>
+<createdTime>2024-06-26 15:46:09 UTC</createdTime>
+<ownerDesignName>modeloLogico</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="nombre" id="219AFC22-9D58-68C4-BD7A-9F2375EE3E0F">
+<createdBy>oliversaraguro</createdBy>
+<createdTime>2024-06-26 15:46:09 UTC</createdTime>
+<ownerDesignName>modeloLogico</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Provincia_codigo" id="7357F64B-BE20-3286-B672-CBFCF7C7A69D">
+<createdBy>oliversaraguro</createdBy>
+<createdTime>2024-06-26 16:01:09 UTC</createdTime>
+<ownerDesignName>modeloLogico</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="DACB4740-A087-0139-70AE-082F651AA9FE" referredColumn="80A717E9-4CF6-610C-C65E-EB96F35F33A0"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="A154FA26-85E2-90B5-E7B2-C0EA4A95DA71" name="Canton_PK">
+<createdBy>oliversaraguro</createdBy>
+<createdTime>2024-06-26 15:46:27 UTC</createdTime>
+<ownerDesignName>modeloLogico</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="EEB273B6-DF64-5ADA-3795-CF72DA9EA62F"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="212E5087-6823-5703-DE43-A630D451B9C0" name="Provincia_FKv1">
+<createdBy>oliversaraguro</createdBy>
+<createdTime>2024-06-26 16:01:09 UTC</createdTime>
+<ownerDesignName>modeloLogico</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="7357F64B-BE20-3286-B672-CBFCF7C7A69D"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

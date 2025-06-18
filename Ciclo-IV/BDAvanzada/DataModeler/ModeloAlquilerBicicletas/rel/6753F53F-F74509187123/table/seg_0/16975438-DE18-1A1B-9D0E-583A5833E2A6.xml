@@ -1,0 +1,65 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="16975438-DE18-1A1B-9D0E-583A5833E2A6" name="rastreador">
+<createdBy>oliversaraguro</createdBy>
+<createdTime>2024-04-17 12:42:32 UTC</createdTime>
+<ownerDesignName>ModeloAlquilerBicicletas</ownerDesignName>
+<ordsAlias>table_6</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="nmro_rastreador" id="3A04B6D3-B5E0-B6EA-AAAF-69997AED005E">
+<createdBy>oliversaraguro</createdBy>
+<createdTime>2024-04-17 12:45:22 UTC</createdTime>
+<ownerDesignName>ModeloAlquilerBicicletas</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="marca" id="8825BE61-6830-118A-E2FC-73044BAC15FB">
+<createdBy>oliversaraguro</createdBy>
+<createdTime>2024-04-17 12:45:22 UTC</createdTime>
+<ownerDesignName>ModeloAlquilerBicicletas</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20</dataTypeSize>
+<ownDataTypeParameters>20,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="modelo" id="5CFCA929-C989-C79D-506E-315819EC0073">
+<createdBy>oliversaraguro</createdBy>
+<createdTime>2024-04-17 12:45:22 UTC</createdTime>
+<ownerDesignName>ModeloAlquilerBicicletas</ownerDesignName>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="nmro_serie" id="B249B11B-ED50-5105-2D46-E9463925E79F">
+<createdBy>oliversaraguro</createdBy>
+<createdTime>2024-04-17 12:45:22 UTC</createdTime>
+<ownerDesignName>ModeloAlquilerBicicletas</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>15</dataTypeSize>
+<ownDataTypeParameters>15,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="4756C68D-BC63-7CA6-101C-8797666CE6E8" name="Rasterador_PK">
+<createdBy>oliversaraguro</createdBy>
+<createdTime>2024-04-17 12:45:22 UTC</createdTime>
+<ownerDesignName>ModeloAlquilerBicicletas</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="3A04B6D3-B5E0-B6EA-AAAF-69997AED005E"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

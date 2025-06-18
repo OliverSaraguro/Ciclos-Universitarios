@@ -1,0 +1,46 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="D37DF7EE-1BF6-ADFC-A9A6-1008D762A3BD" name="Medicamento">
+<createdBy>oliversaraguro</createdBy>
+<createdTime>2024-04-19 20:13:38 UTC</createdTime>
+<ownerDesignName>ModeloFarmacias</ownerDesignName>
+<ordsAlias>table_6</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="idMedicamento" id="E7516A9D-C9C1-D257-080E-04BEA55C7ED5">
+<createdBy>oliversaraguro</createdBy>
+<createdTime>2024-04-19 20:14:32 UTC</createdTime>
+<ownerDesignName>ModeloFarmacias</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="nombre" id="61DED13B-E3CA-3DDE-7CCF-F1ED4388EF30">
+<createdBy>oliversaraguro</createdBy>
+<createdTime>2024-04-19 20:14:32 UTC</createdTime>
+<ownerDesignName>ModeloFarmacias</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="C9A91D26-549A-D546-06C5-A580E5AB619B" name="Medicamento_PK">
+<createdBy>oliversaraguro</createdBy>
+<createdTime>2024-04-19 20:14:39 UTC</createdTime>
+<ownerDesignName>ModeloFarmacias</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="E7516A9D-C9C1-D257-080E-04BEA55C7ED5"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

@@ -1,0 +1,8 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<relationalModel class="oracle.dbtools.crest.model.design.relational.RelationalDesign" name="Relational_1" id="A98DDB16-5EA1-04F9-4208-A42E98A720C6" mainViewID="5400A87B-C882-289A-B21D-E19FA5CF1C46">
+<createdBy>Denis</createdBy>
+<createdTime>2024-05-08 02:23:35 UTC</createdTime>
+<ownerDesignName>TRABAJO GRUPAL</ownerDesignName>
+<shouldBeOpen>true</shouldBeOpen>
+<selectedRDBMSSite>32076570-2523-435C-2E92-BF29817DFF70</selectedRDBMSSite>
+</relationalModel>

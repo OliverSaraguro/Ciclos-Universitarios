@@ -1,0 +1,66 @@
+2024-04-22 21:22:40.007733-05:00 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Error de Sintaxis en sentencia SQL "SELECT nombre AS categoria, Min(idGasto) AS vecesGastos\000aFROM CATEGORIA c\000aJOIN GASTO g ON c.idCategoria = g.idCategoria\000aGROUP BY nombre\000ahaving g.gravadoIva =[*]= TRUE\000aORDER BY vecesGastos DESC\000aLIMIT 1\000a"; se esperaba "ALL (, ANY (, SOME ("
+Syntax error in SQL statement "SELECT nombre AS categoria, Min(idGasto) AS vecesGastos\000aFROM CATEGORIA c\000aJOIN GASTO g ON c.idCategoria = g.idCategoria\000aGROUP BY nombre\000ahaving g.gravadoIva =[*]= TRUE\000aORDER BY vecesGastos DESC\000aLIMIT 1\000a"; expected "ALL (, ANY (, SOME ("; SQL statement:
+SELECT nombre AS categoria, Min(idGasto) AS vecesGastos
+FROM CATEGORIA c
+JOIN GASTO g ON c.idCategoria = g.idCategoria
+GROUP BY nombre
+having g.gravadoIva == TRUE
+ORDER BY vecesGastos DESC
+LIMIT 1
+ [42001-224]
+2024-04-22 21:22:59.666503-05:00 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: La columna "G.GRAVADOIVA" debe estar incluida en la lista de GROUP BY
+Column "G.GRAVADOIVA" must be in the GROUP BY list; SQL statement:
+SELECT nombre AS categoria, Min(idGasto) AS vecesGastos
+FROM CATEGORIA c
+JOIN GASTO g ON c.idCategoria = g.idCategoria
+GROUP BY nombre
+having g.gravadoIva = TRUE
+ORDER BY vecesGastos DESC
+LIMIT 1 [90016-224]
+	at org.h2.message.DbException.getJdbcSQLException(DbException.java:644)
+	at org.h2.message.DbException.getJdbcSQLException(DbException.java:489)
+	at org.h2.message.DbException.get(DbException.java:223)
+	at org.h2.message.DbException.get(DbException.java:199)
+	at org.h2.expression.ExpressionColumn.updateAggregate(ExpressionColumn.java:266)
+	at org.h2.expression.condition.Comparison.updateAggregate(Comparison.java:538)
+	at org.h2.command.query.Select.updateAgg(Select.java:539)
+	at org.h2.command.query.Select.gatherGroup(Select.java:522)
+	at org.h2.command.query.Select.queryGroup(Select.java:488)
+	at org.h2.command.query.Select.queryWithoutCache(Select.java:828)
+	at org.h2.command.query.Query.queryWithoutCacheLazyCheck(Query.java:197)
+	at org.h2.command.query.Query.query(Query.java:520)
+	at org.h2.command.query.Query.query(Query.java:483)
+	at org.h2.command.CommandContainer.query(CommandContainer.java:252)
+	at org.h2.command.Command.executeQuery(Command.java:192)
+	at org.h2.jdbc.JdbcPreparedStatement.executeQuery(JdbcPreparedStatement.java:131)
+	at Taller1Consultas.consulta4(Taller1Consultas.java:98)
+	at Taller1Consultas.main(Taller1Consultas.java:14)
+2024-04-22 22:01:09.322615-05:00 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLDataException: Imposible interpretar la constante "DATE" "0000-00-00"
+Cannot parse "DATE" constant "0000-00-00"; SQL statement:
+INSERT INTO CATEGORIA (nombre, fechaC) VALUES (?, ?) [22007-224]
+	at org.h2.message.DbException.getJdbcSQLException(DbException.java:518)
+	at org.h2.message.DbException.getJdbcSQLException(DbException.java:489)
+	at org.h2.message.DbException.get(DbException.java:212)
+	at org.h2.value.ValueDate.parse(ValueDate.java:53)
+	at org.h2.value.Value.convertToDate(Value.java:1875)
+	at org.h2.value.Value.convertTo(Value.java:1168)
+	at org.h2.value.Value.convertForAssignTo(Value.java:1113)
+	at org.h2.table.Column.validateConvertUpdateSequence(Column.java:369)
+	at org.h2.table.Table.convertInsertRow(Table.java:936)
+	at org.h2.command.dml.Insert.insertRows(Insert.java:167)
+	at org.h2.command.dml.Insert.update(Insert.java:135)
+	at org.h2.command.dml.DataChangeStatement.update(DataChangeStatement.java:74)
+	at org.h2.command.CommandContainer.update(CommandContainer.java:169)
+	at org.h2.command.Command.executeUpdate(Command.java:256)
+	at org.h2.jdbc.JdbcPreparedStatement.executeUpdateInternal(JdbcPreparedStatement.java:216)
+	at org.h2.jdbc.JdbcPreparedStatement.executeUpdate(JdbcPreparedStatement.java:174)
+	at Taller1.insertarCategoria(Taller1.java:181)
+	at Taller1.obtenerDatos(Taller1.java:129)
+	at Taller1.main(Taller1.java:17)
+Caused by: java.lang.IllegalArgumentException: 0-0-0
+	at org.h2.util.DateTimeUtils.parseDateValue(DateTimeUtils.java:194)
+	at org.h2.value.ValueDate.parse(ValueDate.java:51)
+	... 15 more

@@ -1,0 +1,128 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="768F54E4-3910-7D27-1AEE-98E9D0BB37CB" name="usuarios">
+<createdBy>oliversaraguro</createdBy>
+<createdTime>2024-04-24 21:47:23 UTC</createdTime>
+<ownerDesignName>ModeloAlquilerLibros</ownerDesignName>
+<ordsAlias>table_6</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="cedula" id="FB771111-DF2B-1EC8-7ECA-F4A961503F3E">
+<createdBy>oliversaraguro</createdBy>
+<createdTime>2024-04-24 21:51:53 UTC</createdTime>
+<ownerDesignName>ModeloAlquilerLibros</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>15</dataTypeSize>
+<ownDataTypeParameters>15,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="apellidos" id="13296AC9-D37F-5C67-053B-276B2B62709D">
+<createdBy>oliversaraguro</createdBy>
+<createdTime>2024-04-24 21:51:53 UTC</createdTime>
+<ownerDesignName>ModeloAlquilerLibros</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="nombres" id="3B4DB66B-50A3-C532-3596-30E20821EA08">
+<createdBy>oliversaraguro</createdBy>
+<createdTime>2024-04-24 21:51:53 UTC</createdTime>
+<ownerDesignName>ModeloAlquilerLibros</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="direccion" id="6A6CD154-45AD-6D2A-27F5-C9AE7D72D799">
+<createdBy>oliversaraguro</createdBy>
+<createdTime>2024-04-24 21:51:53 UTC</createdTime>
+<ownerDesignName>ModeloAlquilerLibros</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>250</dataTypeSize>
+<ownDataTypeParameters>250,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="telefono1" id="B4A7ABB7-CBC4-C2C7-D99D-4C990670EB7B">
+<createdBy>oliversaraguro</createdBy>
+<createdTime>2024-04-24 21:51:53 UTC</createdTime>
+<ownerDesignName>ModeloAlquilerLibros</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20</dataTypeSize>
+<ownDataTypeParameters>20,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="telefono2" id="8E7D445A-408E-7A2F-43C0-5FE2B55B87A1">
+<createdBy>oliversaraguro</createdBy>
+<createdTime>2024-04-24 21:51:53 UTC</createdTime>
+<ownerDesignName>ModeloAlquilerLibros</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20</dataTypeSize>
+<ownDataTypeParameters>20,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="telefono3" id="D25D16DC-1B4B-D1F9-1099-C64899B5A6FB">
+<createdBy>oliversaraguro</createdBy>
+<createdTime>2024-04-24 21:51:53 UTC</createdTime>
+<ownerDesignName>ModeloAlquilerLibros</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20</dataTypeSize>
+<ownDataTypeParameters>20,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="email" id="0FBD3077-1514-2395-6ABF-B0D8853D8855">
+<createdBy>oliversaraguro</createdBy>
+<createdTime>2024-04-24 21:51:53 UTC</createdTime>
+<ownerDesignName>ModeloAlquilerLibros</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>60</dataTypeSize>
+<ownDataTypeParameters>60,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="34CB300B-4128-350B-642D-8B75CA13AE49" name="usuarios_PK">
+<createdBy>oliversaraguro</createdBy>
+<createdTime>2024-04-24 21:51:53 UTC</createdTime>
+<ownerDesignName>ModeloAlquilerLibros</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="FB771111-DF2B-1EC8-7ECA-F4A961503F3E"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="EF292953-37B0-3105-F0F6-38621F814487" name="usuarios__UN">
+<createdBy>oliversaraguro</createdBy>
+<createdTime>2024-04-24 22:23:15 UTC</createdTime>
+<ownerDesignName>ModeloAlquilerLibros</ownerDesignName>
+<indexState>Unique Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="0FBD3077-1514-2395-6ABF-B0D8853D8855"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

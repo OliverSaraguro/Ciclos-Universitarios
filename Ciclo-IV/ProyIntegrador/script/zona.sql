@@ -1,0 +1,10 @@
+INSERT INTO utpl.zona (codigo, nombre) VALUES (1, 'ZONA 1');
+INSERT INTO utpl.zona (codigo, nombre) VALUES (2, 'ZONA 2');
+INSERT INTO utpl.zona (codigo, nombre) VALUES (3, 'ZONA 3');
+INSERT INTO utpl.zona (codigo, nombre) VALUES (4, 'ZONA 4');
+INSERT INTO utpl.zona (codigo, nombre) VALUES (5, 'ZONA 5');
+INSERT INTO utpl.zona (codigo, nombre) VALUES (6, 'ZONA 6');
+INSERT INTO utpl.zona (codigo, nombre) VALUES (7, 'ZONA 7');
+INSERT INTO utpl.zona (codigo, nombre) VALUES (8, 'ZONA 8');
+INSERT INTO utpl.zona (codigo, nombre) VALUES (9, 'ZONA 9');
+INSERT INTO utpl.zona (codigo, nombre) VALUES (10, 'ZONA NO DELIMITADA');

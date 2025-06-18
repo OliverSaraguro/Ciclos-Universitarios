@@ -1,0 +1,138 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="66AACC92-24BC-C4A8-8DCF-B0C445A505DF" name="Farmaceutico">
+<createdBy>oliversaraguro</createdBy>
+<createdTime>2024-04-19 20:10:12 UTC</createdTime>
+<ownerDesignName>ModeloFarmacias</ownerDesignName>
+<ordsAlias>table_5</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="idFarmaceutico" id="553CD6AE-F8C2-BA1C-7A8E-098A98F561E6">
+<createdBy>oliversaraguro</createdBy>
+<createdTime>2024-04-19 20:11:24 UTC</createdTime>
+<ownerDesignName>ModeloFarmacias</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="especializacion" id="DDC6C3C4-8529-DA30-2E62-91FB7200975C">
+<createdBy>oliversaraguro</createdBy>
+<createdTime>2024-04-19 20:11:24 UTC</createdTime>
+<ownerDesignName>ModeloFarmacias</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100</dataTypeSize>
+<ownDataTypeParameters>100,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="turnoLaboral" id="E7EC190E-08F5-A5E1-34A3-F553558A8F33">
+<createdBy>oliversaraguro</createdBy>
+<createdTime>2024-04-20 20:31:44 UTC</createdTime>
+<ownerDesignName>ModeloFarmacias</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>25</dataTypeSize>
+<ownDataTypeParameters>25,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="horasTrabajadas" id="F062A886-04D8-9343-71F6-37714C2AC8E0">
+<createdBy>oliversaraguro</createdBy>
+<createdTime>2024-04-20 20:32:04 UTC</createdTime>
+<ownerDesignName>ModeloFarmacias</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="salario" id="7A11BB94-2EAF-9186-1F74-3776C67356FF">
+<createdBy>oliversaraguro</createdBy>
+<createdTime>2024-04-20 19:53:53 UTC</createdTime>
+<ownerDesignName>ModeloFarmacias</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT021</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Ciudad_idCiudad" id="37E977D2-0DDA-6EE1-B5C2-584DA618EBE6">
+<createdBy>oliversaraguro</createdBy>
+<createdTime>2024-04-20 20:04:55 UTC</createdTime>
+<ownerDesignName>ModeloFarmacias</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="3D2CD258-CFF9-E2AE-BEF8-46749B91CD1A" referredColumn="060B4FB8-E029-4E97-0E75-F4FE3C0F8397"/>
+</associations>
+</Column>
+<Column name="Persona_cedula" id="8517282F-9AA3-10B2-F489-7D660312597A">
+<createdBy>oliversaraguro</createdBy>
+<createdTime>2024-04-20 23:28:49 UTC</createdTime>
+<ownerDesignName>ModeloFarmacias</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="8AF41774-2416-3EB7-034D-39B5B2B810C5" referredColumn="9A2D99E2-3356-3600-C0CA-3AF7B0DC7B63"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="A9470C15-0CFC-8A24-5B3D-F0AF3D523320" name="farmaceutico_PK">
+<createdBy>oliversaraguro</createdBy>
+<createdTime>2024-04-19 20:11:24 UTC</createdTime>
+<ownerDesignName>ModeloFarmacias</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="553CD6AE-F8C2-BA1C-7A8E-098A98F561E6"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="06C26B81-6854-F317-8E9D-EEC4F9A955C5" name="Farmaceutico__IDXv1">
+<createdBy>oliversaraguro</createdBy>
+<createdTime>2024-04-20 23:31:11 UTC</createdTime>
+<ownerDesignName>ModeloFarmacias</ownerDesignName>
+<deprecated>true</deprecated>
+<indexState>Unique Plain Index</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="8517282F-9AA3-10B2-F489-7D660312597A" sortOrder="DESC"/>
+<colUsage columnID="37E977D2-0DDA-6EE1-B5C2-584DA618EBE6" sortOrder="DESC"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="50EB71BD-8051-DA80-911B-911BBAD7C9C1" name="Farmaceutico_Ciudad_FK">
+<createdBy>oliversaraguro</createdBy>
+<createdTime>2024-04-20 20:04:55 UTC</createdTime>
+<ownerDesignName>ModeloFarmacias</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="37E977D2-0DDA-6EE1-B5C2-584DA618EBE6"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="35E83960-5A99-9AFE-489B-30AF9AC91CF0" name="Farmaceutico_Persona_FKv2">
+<createdBy>oliversaraguro</createdBy>
+<createdTime>2024-04-20 23:28:49 UTC</createdTime>
+<ownerDesignName>ModeloFarmacias</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="8517282F-9AA3-10B2-F489-7D660312597A"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

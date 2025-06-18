@@ -1,0 +1,63 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<TableProxyOraclev11g class="oracle.dbtools.crest.model.design.storage.oracle.v11g.TableProxyOraclev11g" name="ProgresoEstudiante" directorySegmentName="seg_0" id="98CA60E2-2079-3B5E-871B-E30E3A7346C4">
+<createdBy>oliversaraguro</createdBy>
+<createdTime>2024-05-11 02:46:28 UTC</createdTime>
+<ownerDesignName>EscuelaArtesMarciales</ownerDesignName>
+<logging>YES</logging>
+<partitionedRowMovement>DISABLE</partitionedRowMovement>
+<temporaryChanged>false</temporaryChanged>
+<accessDriverType>oracle_loader</accessDriverType>
+<rejectLimit></rejectLimit>
+<columnProxies itemClass="oracle.dbtools.crest.model.design.storage.oracle.v12c.ColumnProxyOraclev12c">
+<ColumnProxy name="idRango" id="0EE8CAAD-F0E5-1B2C-4AEB-FE8B51DD1CE9">
+<createdBy>oliversaraguro</createdBy>
+<createdTime>2024-05-11 02:46:28 UTC</createdTime>
+<ownerDesignName>EscuelaArtesMarciales</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="observacion" id="4DCA1B0F-97E7-69F0-5629-6CBC7E7B35C1">
+<createdBy>oliversaraguro</createdBy>
+<createdTime>2024-05-11 02:46:28 UTC</createdTime>
+<ownerDesignName>EscuelaArtesMarciales</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="Estudiante_idEstudiante" id="6E85A009-AE8B-7197-FF37-EC47E3315AB2">
+<createdBy>oliversaraguro</createdBy>
+<createdTime>2024-05-11 02:46:28 UTC</createdTime>
+<ownerDesignName>EscuelaArtesMarciales</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="fechaObtencion " id="8C82D44A-3960-C685-8D45-88562AC947B8">
+<createdBy>oliversaraguro</createdBy>
+<createdTime>2024-05-11 02:46:28 UTC</createdTime>
+<ownerDesignName>EscuelaArtesMarciales</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="idProgresoEstudiante" id="E4661D3D-505F-F60B-8BC1-D0E9D7EEB565">
+<createdBy>oliversaraguro</createdBy>
+<createdTime>2024-05-11 02:46:28 UTC</createdTime>
+<ownerDesignName>EscuelaArtesMarciales</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="nivelObtenido" id="E996476E-51AC-6E91-D249-89B962F4C6E1">
+<createdBy>oliversaraguro</createdBy>
+<createdTime>2024-05-11 02:46:28 UTC</createdTime>
+<ownerDesignName>EscuelaArtesMarciales</ownerDesignName>
+</ColumnProxy>
+</columnProxies>
+<foreignKeys>
+<ForeignKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.FKProxyOraclev10g" name="ProgresoEst_Rango_FK" id="543F360E-676F-CE4E-9657-848E3834D3D1">
+<createdBy>oliversaraguro</createdBy>
+<createdTime>2024-05-11 02:46:28 UTC</createdTime>
+<ownerDesignName>EscuelaArtesMarciales</ownerDesignName>
+</ForeignKey>
+<ForeignKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.FKProxyOraclev10g" name="ProgresoEst_Estudiante_FK" id="E795544A-615F-5E6F-26AF-CD83DC1FE985">
+<createdBy>oliversaraguro</createdBy>
+<createdTime>2024-05-11 02:46:28 UTC</createdTime>
+<ownerDesignName>EscuelaArtesMarciales</ownerDesignName>
+</ForeignKey>
+</foreignKeys>
+<primaryKeys>
+<PrimaryKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.PKProxyOraclev10g" name="ProgresoEstudiante_PK" id="78DFC655-9094-AD90-7640-B53F2E0B2D35">
+<createdBy>oliversaraguro</createdBy>
+<createdTime>2024-05-11 02:46:28 UTC</createdTime>
+<ownerDesignName>EscuelaArtesMarciales</ownerDesignName>
+<indexSort>SORTED</indexSort>
+</PrimaryKey>
+</primaryKeys>
+</TableProxyOraclev11g>

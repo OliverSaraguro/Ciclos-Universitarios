@@ -1,0 +1,73 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="3F567328-1FC6-0C5A-1C1C-E01982175EB9" name="areas_conocimiento">
+<createdBy>oliversaraguro</createdBy>
+<createdTime>2024-04-24 21:54:42 UTC</createdTime>
+<ownerDesignName>ModeloAlquilerLibros</ownerDesignName>
+<ordsAlias>table_8</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="codArea" id="4F463E2E-83E9-0412-9428-C3573E952E32">
+<createdBy>oliversaraguro</createdBy>
+<createdTime>2024-04-24 21:56:11 UTC</createdTime>
+<ownerDesignName>ModeloAlquilerLibros</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>15</dataTypeSize>
+<ownDataTypeParameters>15,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="nombreArea" id="FD2741D3-8BEB-A749-B36F-074C0E0A5C85">
+<createdBy>oliversaraguro</createdBy>
+<createdTime>2024-04-24 21:56:11 UTC</createdTime>
+<ownerDesignName>ModeloAlquilerLibros</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>250</dataTypeSize>
+<ownDataTypeParameters>250,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="codAreaPadre" id="5C93A1CC-447D-42A5-C7E1-9180C81B4C30">
+<createdBy>oliversaraguro</createdBy>
+<createdTime>2024-04-24 22:09:43 UTC</createdTime>
+<ownerDesignName>ModeloAlquilerLibros</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>15</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="3090EE28-3147-AB49-53C3-B9613565B38D" referredColumn="4F463E2E-83E9-0412-9428-C3573E952E32"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="A8B8CBC7-9763-B29B-8FC3-6C1C3126A067" name="areas_conocimiento_PK">
+<createdBy>oliversaraguro</createdBy>
+<createdTime>2024-04-24 22:03:29 UTC</createdTime>
+<ownerDesignName>ModeloAlquilerLibros</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="4F463E2E-83E9-0412-9428-C3573E952E32"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="5282E921-B55A-4D65-BCED-70BAE11F1CB1" name="areas_conocimiento">
+<createdBy>oliversaraguro</createdBy>
+<createdTime>2024-04-24 22:09:43 UTC</createdTime>
+<ownerDesignName>ModeloAlquilerLibros</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="5C93A1CC-447D-42A5-C7E1-9180C81B4C30"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

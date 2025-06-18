@@ -1,0 +1,53 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<TableProxyOraclev11g class="oracle.dbtools.crest.model.design.storage.oracle.v11g.TableProxyOraclev11g" name="Asistencia_Estudiante" directorySegmentName="seg_0" id="E699C2A3-1D7B-C5F6-191C-E657ECEA59BC">
+<createdBy>oliversaraguro</createdBy>
+<createdTime>2024-05-11 02:46:28 UTC</createdTime>
+<ownerDesignName>EscuelaArtesMarciales</ownerDesignName>
+<logging>YES</logging>
+<partitionedRowMovement>DISABLE</partitionedRowMovement>
+<temporaryChanged>false</temporaryChanged>
+<accessDriverType>oracle_loader</accessDriverType>
+<rejectLimit></rejectLimit>
+<columnProxies itemClass="oracle.dbtools.crest.model.design.storage.oracle.v12c.ColumnProxyOraclev12c">
+<ColumnProxy name="presencia" id="2036052B-E559-1A03-0C95-B9F132D2FB67">
+<createdBy>oliversaraguro</createdBy>
+<createdTime>2024-05-11 02:46:28 UTC</createdTime>
+<ownerDesignName>EscuelaArtesMarciales</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="idEstudiante" id="866EDB69-FDE0-05AE-5481-ECFB379BEFA6">
+<createdBy>oliversaraguro</createdBy>
+<createdTime>2024-05-11 02:46:28 UTC</createdTime>
+<ownerDesignName>EscuelaArtesMarciales</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="idClase" id="C0D15318-EAB9-C493-96BD-B02766685AA7">
+<createdBy>oliversaraguro</createdBy>
+<createdTime>2024-05-11 02:46:28 UTC</createdTime>
+<ownerDesignName>EscuelaArtesMarciales</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="idAsistencia" id="DAFBC626-8142-394A-C4AD-841E8EB7FA84">
+<createdBy>oliversaraguro</createdBy>
+<createdTime>2024-05-11 02:46:28 UTC</createdTime>
+<ownerDesignName>EscuelaArtesMarciales</ownerDesignName>
+</ColumnProxy>
+</columnProxies>
+<foreignKeys>
+<ForeignKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.FKProxyOraclev10g" name="Asistencia_Est_Estudiante_FK" id="89E3BB6C-86FC-409E-13F2-40FFCB691F9B">
+<createdBy>oliversaraguro</createdBy>
+<createdTime>2024-05-11 02:46:28 UTC</createdTime>
+<ownerDesignName>EscuelaArtesMarciales</ownerDesignName>
+</ForeignKey>
+<ForeignKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.FKProxyOraclev10g" name="Asistencia_Est_Clase_FK" id="F8EB6AA1-6EDF-271E-07F7-3A3E1E6A0AC4">
+<createdBy>oliversaraguro</createdBy>
+<createdTime>2024-05-11 02:46:28 UTC</createdTime>
+<ownerDesignName>EscuelaArtesMarciales</ownerDesignName>
+</ForeignKey>
+</foreignKeys>
+<primaryKeys>
+<PrimaryKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.PKProxyOraclev10g" name="Asistencia_Estudiante_PK" id="3422613A-9FF6-0C23-7C72-94752CE881E0">
+<createdBy>oliversaraguro</createdBy>
+<createdTime>2024-05-11 02:46:28 UTC</createdTime>
+<ownerDesignName>EscuelaArtesMarciales</ownerDesignName>
+<indexSort>SORTED</indexSort>
+</PrimaryKey>
+</primaryKeys>
+</TableProxyOraclev11g>

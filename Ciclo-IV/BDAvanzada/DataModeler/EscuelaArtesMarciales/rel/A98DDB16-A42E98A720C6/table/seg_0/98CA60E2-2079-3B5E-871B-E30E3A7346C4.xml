@@ -1,0 +1,120 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="98CA60E2-2079-3B5E-871B-E30E3A7346C4" name="ProgresoEstudiante">
+<createdBy>Denis</createdBy>
+<createdTime>2024-05-10 02:31:46 UTC</createdTime>
+<ownerDesignName>EscuelaArtesMarciales</ownerDesignName>
+<ordsAlias>table_12</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="idProgresoEstudiante" id="E4661D3D-505F-F60B-8BC1-D0E9D7EEB565">
+<createdBy>oliversaraguro</createdBy>
+<createdTime>2024-05-11 02:26:37 UTC</createdTime>
+<ownerDesignName>EscuelaArtesMarciales</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>15</dataTypeSize>
+<ownDataTypeParameters>15,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="fechaObtencion " id="8C82D44A-3960-C685-8D45-88562AC947B8">
+<createdBy>Denis</createdBy>
+<createdTime>2024-05-10 02:34:22 UTC</createdTime>
+<ownerDesignName>EscuelaArtesMarciales</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="idRango" id="0EE8CAAD-F0E5-1B2C-4AEB-FE8B51DD1CE9">
+<createdBy>Denis</createdBy>
+<createdTime>2024-05-10 03:37:20 UTC</createdTime>
+<ownerDesignName>EscuelaArtesMarciales</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="204B5527-EC19-3467-5E79-F78F4ECB7D1E" referredColumn="673031F4-573D-7929-7E2C-4ED876C67783"/>
+</associations>
+</Column>
+<Column name="nivelObtenido" id="E996476E-51AC-6E91-D249-89B962F4C6E1">
+<createdBy>Denis</createdBy>
+<createdTime>2024-05-10 03:20:55 UTC</createdTime>
+<ownerDesignName>EscuelaArtesMarciales</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20</dataTypeSize>
+<ownDataTypeParameters>20,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="observacion" id="4DCA1B0F-97E7-69F0-5629-6CBC7E7B35C1">
+<createdBy>Denis</createdBy>
+<createdTime>2024-05-10 02:34:22 UTC</createdTime>
+<ownerDesignName>EscuelaArtesMarciales</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>300</dataTypeSize>
+<ownDataTypeParameters>300,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Estudiante_idEstudiante" id="6E85A009-AE8B-7197-FF37-EC47E3315AB2">
+<createdBy>oliversaraguro</createdBy>
+<createdTime>2024-05-11 02:18:14 UTC</createdTime>
+<ownerDesignName>EscuelaArtesMarciales</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>10</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="2AEE6DE0-2BB7-0197-012A-0C0EE673873F" referredColumn="030EBEBE-8CC7-5FF3-389E-CEFA319FF0E5"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="78DFC655-9094-AD90-7640-B53F2E0B2D35" name="ProgresoEstudiante_PK">
+<createdBy>Denis</createdBy>
+<createdTime>2024-05-10 02:34:22 UTC</createdTime>
+<ownerDesignName>EscuelaArtesMarciales</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="8C82D44A-3960-C685-8D45-88562AC947B8"/>
+<colUsage columnID="E4661D3D-505F-F60B-8BC1-D0E9D7EEB565"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="543F360E-676F-CE4E-9657-848E3834D3D1" name="ProgresoEst_Rango_FK">
+<createdBy>Denis</createdBy>
+<createdTime>2024-05-10 03:37:20 UTC</createdTime>
+<ownerDesignName>EscuelaArtesMarciales</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="0EE8CAAD-F0E5-1B2C-4AEB-FE8B51DD1CE9"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="E795544A-615F-5E6F-26AF-CD83DC1FE985" name="ProgresoEst_Estudiante_FK">
+<createdBy>oliversaraguro</createdBy>
+<createdTime>2024-05-11 02:18:14 UTC</createdTime>
+<ownerDesignName>EscuelaArtesMarciales</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="6E85A009-AE8B-7197-FF37-EC47E3315AB2"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

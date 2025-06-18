@@ -1,0 +1,71 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="6B630F3B-4C7B-1B59-CC67-F5C8A070B860" name="Provincia">
+<createdBy>oliversaraguro</createdBy>
+<createdTime>2024-06-26 15:28:10 UTC</createdTime>
+<ownerDesignName>modeloLogico</ownerDesignName>
+<ordsAlias>table_7</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="codigo" id="80A717E9-4CF6-610C-C65E-EB96F35F33A0">
+<createdBy>oliversaraguro</createdBy>
+<createdTime>2024-06-26 15:28:46 UTC</createdTime>
+<ownerDesignName>modeloLogico</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="nombre" id="B24F6E41-FDC9-A752-8284-098F67E05E84">
+<createdBy>oliversaraguro</createdBy>
+<createdTime>2024-06-26 15:28:46 UTC</createdTime>
+<ownerDesignName>modeloLogico</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Zona_codigo" id="7F05ECD3-BBC4-B2F7-6B0C-F29EC8128D9C">
+<createdBy>oliversaraguro</createdBy>
+<createdTime>2024-06-26 16:00:55 UTC</createdTime>
+<ownerDesignName>modeloLogico</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="3DD3BB44-5982-3C24-AAF3-69196837CDC5" referredColumn="1ED15F2C-BE77-3B8E-A5F4-A2773A8BDDBD"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="0A6C0E44-B55D-F86C-39FA-2CFD3131C600" name="Provincia_PK">
+<createdBy>oliversaraguro</createdBy>
+<createdTime>2024-06-26 15:28:46 UTC</createdTime>
+<ownerDesignName>modeloLogico</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="80A717E9-4CF6-610C-C65E-EB96F35F33A0"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="DEFDD9A1-41B0-E46D-BEC9-E20D41B3BC75" name="Zona_FKv2">
+<createdBy>oliversaraguro</createdBy>
+<createdTime>2024-06-26 16:00:55 UTC</createdTime>
+<ownerDesignName>modeloLogico</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="7F05ECD3-BBC4-B2F7-6B0C-F29EC8128D9C"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

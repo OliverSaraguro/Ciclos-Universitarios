@@ -1,0 +1,53 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<TableProxyOraclev11g class="oracle.dbtools.crest.model.design.storage.oracle.v11g.TableProxyOraclev11g" name="Asistencia_Instructores" directorySegmentName="seg_0" id="1ED94786-2C09-BE59-DBB2-4D67A12869AB">
+<createdBy>oliversaraguro</createdBy>
+<createdTime>2024-05-11 02:46:28 UTC</createdTime>
+<ownerDesignName>EscuelaArtesMarciales</ownerDesignName>
+<logging>YES</logging>
+<partitionedRowMovement>DISABLE</partitionedRowMovement>
+<temporaryChanged>false</temporaryChanged>
+<accessDriverType>oracle_loader</accessDriverType>
+<rejectLimit></rejectLimit>
+<columnProxies itemClass="oracle.dbtools.crest.model.design.storage.oracle.v12c.ColumnProxyOraclev12c">
+<ColumnProxy name="funcion" id="73B76D61-01A6-948F-536C-69C20D975C5D">
+<createdBy>oliversaraguro</createdBy>
+<createdTime>2024-05-11 02:46:28 UTC</createdTime>
+<ownerDesignName>EscuelaArtesMarciales</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="idAsistencia" id="9D6920ED-B2C0-DFE5-2777-D97242DB306F">
+<createdBy>oliversaraguro</createdBy>
+<createdTime>2024-05-11 02:46:28 UTC</createdTime>
+<ownerDesignName>EscuelaArtesMarciales</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="idInstructor" id="E1557151-E97C-15EE-DF1E-2C39646748F3">
+<createdBy>oliversaraguro</createdBy>
+<createdTime>2024-05-11 02:46:28 UTC</createdTime>
+<ownerDesignName>EscuelaArtesMarciales</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="idClase" id="F0998F1E-0190-747E-455D-885E8D8D9DE7">
+<createdBy>oliversaraguro</createdBy>
+<createdTime>2024-05-11 02:46:28 UTC</createdTime>
+<ownerDesignName>EscuelaArtesMarciales</ownerDesignName>
+</ColumnProxy>
+</columnProxies>
+<foreignKeys>
+<ForeignKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.FKProxyOraclev10g" name="Asistencia_Inst_Clase_FK" id="1A73EB07-5C29-5216-F6DA-7062A5AED571">
+<createdBy>oliversaraguro</createdBy>
+<createdTime>2024-05-11 02:46:28 UTC</createdTime>
+<ownerDesignName>EscuelaArtesMarciales</ownerDesignName>
+</ForeignKey>
+<ForeignKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.FKProxyOraclev10g" name="Asistencia_Inst_Instructor_FK" id="57B1AFE1-6EC5-18F9-4221-8AD9A11524E7">
+<createdBy>oliversaraguro</createdBy>
+<createdTime>2024-05-11 02:46:28 UTC</createdTime>
+<ownerDesignName>EscuelaArtesMarciales</ownerDesignName>
+</ForeignKey>
+</foreignKeys>
+<primaryKeys>
+<PrimaryKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.PKProxyOraclev10g" name="Asistencia_Estudiante_PKv1" id="08281163-004A-6702-4E9F-000B37F3F487">
+<createdBy>oliversaraguro</createdBy>
+<createdTime>2024-05-11 02:46:28 UTC</createdTime>
+<ownerDesignName>EscuelaArtesMarciales</ownerDesignName>
+<indexSort>SORTED</indexSort>
+</PrimaryKey>
+</primaryKeys>
+</TableProxyOraclev11g>

@@ -1,0 +1,16 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="74BFA15E-D90B-2142-67C6-06CC4C508201" containerWithKeyObject="A9713859-1043-0731-5916-83CE3064A3FB" localFKIndex="01C7B352-D954-3861-923B-37544CD1A3F4" name="MedicamentoMonodroga_Monodroga_FK">
+<createdBy>oliversaraguro</createdBy>
+<createdTime>2024-04-19 23:47:15 UTC</createdTime>
+<ownerDesignName>ModeloFarmacias</ownerDesignName>
+<referredTableLongName>Monodroga</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>43011BF3-6B14-7243-DDDF-C4118690FE3D</referredTableID>
+<keyObject>A2462032-5D11-3974-68CC-462843FBEE13</keyObject>
+<referredKeyID>A2462032-5D11-3974-68CC-462843FBEE13</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>idMonodroga</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

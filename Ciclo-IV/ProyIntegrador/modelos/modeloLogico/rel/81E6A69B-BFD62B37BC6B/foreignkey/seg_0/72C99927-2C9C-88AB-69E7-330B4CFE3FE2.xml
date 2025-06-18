@@ -1,0 +1,16 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="72C99927-2C9C-88AB-69E7-330B4CFE3FE2" containerWithKeyObject="64922092-CF74-B01A-5390-85513ADA38AB" localFKIndex="B35012F4-F571-09C4-A7C8-3DF970A4623B" name="parroquia_FK">
+<createdBy>oliversaraguro</createdBy>
+<createdTime>2024-06-26 16:01:58 UTC</createdTime>
+<ownerDesignName>modeloLogico</ownerDesignName>
+<referredTableLongName>Parroquia</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>6589DCC6-53D2-578D-25DE-D89148950DC6</referredTableID>
+<keyObject>5846D86E-B711-A3A6-53EE-59681EE1207C</keyObject>
+<referredKeyID>5846D86E-B711-A3A6-53EE-59681EE1207C</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>codigo</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

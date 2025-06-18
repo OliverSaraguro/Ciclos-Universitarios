@@ -1,0 +1,82 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="F48DD98E-FBF7-3219-CB84-991B78BB8C79" name="ejemplares">
+<createdBy>oliversaraguro</createdBy>
+<createdTime>2024-04-24 21:39:04 UTC</createdTime>
+<ownerDesignName>ModeloAlquilerLibros</ownerDesignName>
+<ordsAlias>table_3</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="idEjemplar" id="11986D36-CB2E-957A-150D-D931585DB688">
+<createdBy>oliversaraguro</createdBy>
+<createdTime>2024-04-24 21:41:44 UTC</createdTime>
+<ownerDesignName>ModeloAlquilerLibros</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="idLibro" id="14E7178C-FD87-7F51-B275-32660386AD65">
+<createdBy>oliversaraguro</createdBy>
+<createdTime>2024-04-24 22:06:25 UTC</createdTime>
+<ownerDesignName>ModeloAlquilerLibros</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="93B301E8-0A32-7E57-2315-DFED86FB71FB" referredColumn="F84568A1-3A8E-7D63-6FF8-D0345737035D"/>
+</associations>
+</Column>
+<Column name="ubicacion" id="554D2AB5-6058-1C1B-4957-D32EA0B1DC84">
+<createdBy>oliversaraguro</createdBy>
+<createdTime>2024-04-24 21:41:44 UTC</createdTime>
+<ownerDesignName>ModeloAlquilerLibros</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>40</dataTypeSize>
+<ownDataTypeParameters>40,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="status" id="D2170736-73AA-3F37-DAA5-CF05E3971079">
+<createdBy>oliversaraguro</createdBy>
+<createdTime>2024-04-24 21:41:44 UTC</createdTime>
+<ownerDesignName>ModeloAlquilerLibros</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>1</dataTypeSize>
+<ownDataTypeParameters>1,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="382622AB-26E1-28FF-2566-42515AB1C4DE" name="ejemplares_PK">
+<createdBy>oliversaraguro</createdBy>
+<createdTime>2024-04-24 21:41:44 UTC</createdTime>
+<ownerDesignName>ModeloAlquilerLibros</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="11986D36-CB2E-957A-150D-D931585DB688"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="0C26755E-CE54-510A-D552-EEE8F9E5B30E" name="ejemplares_libros _FK">
+<createdBy>oliversaraguro</createdBy>
+<createdTime>2024-04-24 22:06:25 UTC</createdTime>
+<ownerDesignName>ModeloAlquilerLibros</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="14E7178C-FD87-7F51-B275-32660386AD65"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

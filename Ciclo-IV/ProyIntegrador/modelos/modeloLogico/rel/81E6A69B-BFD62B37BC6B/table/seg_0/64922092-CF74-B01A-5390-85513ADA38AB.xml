@@ -1,0 +1,73 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="64922092-CF74-B01A-5390-85513ADA38AB" name="Distrito">
+<createdBy>oliversaraguro</createdBy>
+<createdTime>2024-06-26 15:46:55 UTC</createdTime>
+<ownerDesignName>modeloLogico</ownerDesignName>
+<ordsAlias>table_12</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="codigo" id="B0A7D007-8B3B-B436-31B8-A6F1AAC45D02">
+<createdBy>oliversaraguro</createdBy>
+<createdTime>2024-06-26 15:47:14 UTC</createdTime>
+<ownerDesignName>modeloLogico</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>8</dataTypeSize>
+<ownDataTypeParameters>8,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="nombre" id="360FA012-99F5-67BD-04DE-06F182559B6C">
+<createdBy>oliversaraguro</createdBy>
+<createdTime>2024-06-26 15:47:14 UTC</createdTime>
+<ownerDesignName>modeloLogico</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Parroquia_codigo" id="6003ACB6-6091-092A-C235-ED54CA52A409">
+<createdBy>oliversaraguro</createdBy>
+<createdTime>2024-06-26 16:01:58 UTC</createdTime>
+<ownerDesignName>modeloLogico</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>10</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="72C99927-2C9C-88AB-69E7-330B4CFE3FE2" referredColumn="8E025333-D91F-ABB8-96E2-5A115CA4AA14"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="DC4AB978-E4A5-E208-F8C0-CB5E6097B1B3" name="Distrito_PK">
+<createdBy>oliversaraguro</createdBy>
+<createdTime>2024-06-26 15:57:10 UTC</createdTime>
+<ownerDesignName>modeloLogico</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="B0A7D007-8B3B-B436-31B8-A6F1AAC45D02"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="B35012F4-F571-09C4-A7C8-3DF970A4623B" name="parroquia_FK">
+<createdBy>oliversaraguro</createdBy>
+<createdTime>2024-06-26 16:01:58 UTC</createdTime>
+<ownerDesignName>modeloLogico</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="6003ACB6-6091-092A-C235-ED54CA52A409"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

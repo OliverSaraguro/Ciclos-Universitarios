@@ -1,0 +1,59 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="D7CFF1F3-E8C9-E296-DDEA-4E5F430A9DA1" name="Lugar">
+<createdBy>oliversaraguro</createdBy>
+<createdTime>2024-06-26 14:57:42 UTC</createdTime>
+<ownerDesignName>modeloLogico</ownerDesignName>
+<ordsAlias>table_3</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="codigo" id="0B5129FB-824E-17F2-FCD9-B0352C5AB76C">
+<createdBy>oliversaraguro</createdBy>
+<createdTime>2024-06-26 14:58:21 UTC</createdTime>
+<ownerDesignName>modeloLogico</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="tipo" id="491F319B-3DA1-A5C9-1E8E-4D0EE44FA701">
+<createdBy>oliversaraguro</createdBy>
+<createdTime>2024-06-26 14:58:21 UTC</createdTime>
+<ownerDesignName>modeloLogico</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="nombre" id="8C6C9DC3-78C4-A370-53E2-CAF4912ADC0A">
+<createdBy>oliversaraguro</createdBy>
+<createdTime>2024-06-26 14:58:21 UTC</createdTime>
+<ownerDesignName>modeloLogico</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="43912D97-8C3A-3F5E-3723-322FBDFF8B0F" name="Lugar_PK">
+<createdBy>oliversaraguro</createdBy>
+<createdTime>2024-06-26 14:58:21 UTC</createdTime>
+<ownerDesignName>modeloLogico</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="0B5129FB-824E-17F2-FCD9-B0352C5AB76C"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

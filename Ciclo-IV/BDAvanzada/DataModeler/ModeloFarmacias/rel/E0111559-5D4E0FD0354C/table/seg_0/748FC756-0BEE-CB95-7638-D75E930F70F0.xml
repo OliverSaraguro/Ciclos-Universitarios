@@ -1,0 +1,104 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="748FC756-0BEE-CB95-7638-D75E930F70F0" name="Empleado">
+<createdBy>oliversaraguro</createdBy>
+<createdTime>2024-04-19 20:08:46 UTC</createdTime>
+<ownerDesignName>ModeloFarmacias</ownerDesignName>
+<ordsAlias>table_4</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="idEmpleado" id="DB3B14CD-174D-CB3D-679A-6073CABBBA7E">
+<createdBy>oliversaraguro</createdBy>
+<createdTime>2024-04-19 20:09:45 UTC</createdTime>
+<ownerDesignName>ModeloFarmacias</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="puesto" id="37D117F5-3786-2083-5058-DF5BF883D373">
+<createdBy>oliversaraguro</createdBy>
+<createdTime>2024-04-19 20:09:45 UTC</createdTime>
+<ownerDesignName>ModeloFarmacias</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>75</dataTypeSize>
+<ownDataTypeParameters>75,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="turnoLaboral" id="7A5E0DEE-063C-876D-990B-421ED47EA58B">
+<createdBy>oliversaraguro</createdBy>
+<createdTime>2024-04-20 20:32:36 UTC</createdTime>
+<ownerDesignName>ModeloFarmacias</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>25</dataTypeSize>
+<ownDataTypeParameters>25,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="horasTrabajadas" id="504CE369-C89A-C8E6-5C1E-44BA330F1D85">
+<createdBy>oliversaraguro</createdBy>
+<createdTime>2024-04-20 20:32:54 UTC</createdTime>
+<ownerDesignName>ModeloFarmacias</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT014</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="salario" id="46C2143D-F6B9-996F-0B40-B7C55F160FF6">
+<createdBy>oliversaraguro</createdBy>
+<createdTime>2024-04-20 19:54:07 UTC</createdTime>
+<ownerDesignName>ModeloFarmacias</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT021</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Persona_cedula" id="7F453AB3-2D74-773C-627F-D8A3B9F2A351">
+<createdBy>oliversaraguro</createdBy>
+<createdTime>2024-04-20 23:28:07 UTC</createdTime>
+<ownerDesignName>ModeloFarmacias</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="EB1F2E20-3BBA-3A40-A83C-2FCE23D3F440" referredColumn="9A2D99E2-3356-3600-C0CA-3AF7B0DC7B63"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="2B14D0AF-5D49-6A4A-63AC-42293F5CC2FA" name="empleado_PK">
+<createdBy>oliversaraguro</createdBy>
+<createdTime>2024-04-19 20:09:53 UTC</createdTime>
+<ownerDesignName>ModeloFarmacias</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="DB3B14CD-174D-CB3D-679A-6073CABBBA7E"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="BAD7F041-196E-C349-A41C-EFF228864F0F" name="Empleado_Persona_FK">
+<createdBy>oliversaraguro</createdBy>
+<createdTime>2024-04-20 23:28:07 UTC</createdTime>
+<ownerDesignName>ModeloFarmacias</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="7F453AB3-2D74-773C-627F-D8A3B9F2A351"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

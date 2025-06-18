@@ -1,0 +1,16 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="DACB4740-A087-0139-70AE-082F651AA9FE" containerWithKeyObject="D43FD6C8-D51F-6425-3819-F9EC55ECB0A3" localFKIndex="212E5087-6823-5703-DE43-A630D451B9C0" name="Provincia_FKv1">
+<createdBy>oliversaraguro</createdBy>
+<createdTime>2024-06-26 16:01:09 UTC</createdTime>
+<ownerDesignName>modeloLogico</ownerDesignName>
+<referredTableLongName>Provincia</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>6B630F3B-4C7B-1B59-CC67-F5C8A070B860</referredTableID>
+<keyObject>0A6C0E44-B55D-F86C-39FA-2CFD3131C600</keyObject>
+<referredKeyID>0A6C0E44-B55D-F86C-39FA-2CFD3131C600</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>codigo</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

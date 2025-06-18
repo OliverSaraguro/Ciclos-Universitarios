@@ -1,0 +1,77 @@
+DROP USER EJEMPLO01 CASCADE;
+
+DROP TABLESPACE TS_A INCLUDING CONTENTS AND DATAFILES;
+DROP TABLESPACE TS_B INCLUDING CONTENTS AND DATAFILES;
+
+CREATE TABLESPACE TS_A 
+    DATAFILE 
+        'C:\datos\TS_A_01.DBF' SIZE 100M;
+
+CREATE TABLESPACE TS_B 
+    DATAFILE 
+        'C:\datos\TS_B_01.DBF' SIZE 60M,
+        'C:\datos\TS_B_02.DBF' SIZE 40M;
+
+CREATE USER EJEMPLO01 IDENTIFIED BY "oracle"
+DEFAULT TABLESPACE TS_A
+TEMPORARY TABLESPACE TEMP;
+
+GRANT CONNECT, RESOURCE TO EJEMPLO01;
+
+ALTER USER "EJEMPLO01" QUOTA UNLIMITED ON "TS_B";
+
+--DROP TABLE EJEMPLO01.asignaturas CASCADE CONSTRAINTS;
+
+--DROP TABLE EJEMPLO01.carreras CASCADE CONSTRAINTS;
+
+--DROP TABLE EJEMPLO01.universidades CASCADE CONSTRAINTS;
+
+CREATE TABLE EJEMPLO01.asignaturas (
+    codigo_asg CHAR(5) NOT NULL,
+    nombre     VARCHAR2(30) NOT NULL,
+    semestre   SMALLINT NOT NULL,
+    codigo_car CHAR(3) NOT NULL
+);
+
+ALTER TABLE EJEMPLO01.asignaturas ADD CONSTRAINT asignaturas_pk PRIMARY KEY ( codigo_asg );
+
+ALTER TABLE EJEMPLO01.asignaturas
+    ADD CONSTRAINT asignaturas_semestre_ck CHECK (semestre BETWEEN 1 AND 10);
+
+CREATE TABLE EJEMPLO01.carreras (
+    codigo_car CHAR(3) NOT NULL,
+    nombre     VARCHAR2(50) NOT NULL,
+    nivel      CHAR(1) NOT NULL,
+    duracion   SMALLINT,
+    id_univ    INTEGER NOT NULL
+);
+
+ALTER TABLE EJEMPLO01.carreras ADD CONSTRAINT carreras_pk PRIMARY KEY ( codigo_car );
+
+ALTER TABLE EJEMPLO01.carreras
+    ADD CONSTRAINT carreras_duracion_ck CHECK (duracion BETWEEN 1 AND 5);
+
+ALTER TABLE EJEMPLO01.carreras
+    ADD CONSTRAINT carreras_nivel_ck CHECK (nivel IN ('G','P'));
+
+CREATE TABLE EJEMPLO01.universidades (
+    id_univ INTEGER NOT NULL,
+    nif     VARCHAR2(15) NOT NULL,
+    nombre  VARCHAR2(70) NOT NULL,
+    tipo    CHAR(3) NOT NULL
+) tablespace TS_B;
+
+ALTER TABLE EJEMPLO01.universidades ADD CONSTRAINT universidades_pk PRIMARY KEY ( id_univ );
+
+ALTER TABLE EJEMPLO01.universidades ADD CONSTRAINT universidades_nif_un UNIQUE ( nif );
+
+ALTER TABLE EJEMPLO01.universidades
+    ADD CONSTRAINT universidades_tipo_ck CHECK (tipo IN ('PUB','PRV'));
+
+ALTER TABLE EJEMPLO01.asignaturas
+    ADD CONSTRAINT asignaturas_carreras_fk FOREIGN KEY ( codigo_car )
+        REFERENCES EJEMPLO01.carreras ( codigo_car );
+
+ALTER TABLE EJEMPLO01.carreras
+    ADD CONSTRAINT carreras_universidades_fk FOREIGN KEY ( id_univ )
+        REFERENCES EJEMPLO01.universidades ( id_univ );

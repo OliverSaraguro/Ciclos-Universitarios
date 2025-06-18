@@ -1,0 +1,116 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="E2A78149-6A56-FCC2-AB10-E21C3E7ADE2C" name="usuario">
+<createdBy>oliversaraguro</createdBy>
+<createdTime>2024-04-17 12:28:36 UTC</createdTime>
+<ownerDesignName>ModeloAlquilerBicicletas</ownerDesignName>
+<ordsAlias>table_1</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="cedula" id="99EF4AFD-1531-8A37-573B-F01649599FAE">
+<createdBy>oliversaraguro</createdBy>
+<createdTime>2024-04-17 12:36:37 UTC</createdTime>
+<ownerDesignName>ModeloAlquilerBicicletas</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>10</dataTypeSize>
+<ownDataTypeParameters>10,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="apellidos" id="801A08E7-F18D-320F-F37C-4637A380D54C">
+<createdBy>oliversaraguro</createdBy>
+<createdTime>2024-04-17 12:36:37 UTC</createdTime>
+<ownerDesignName>ModeloAlquilerBicicletas</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>35</dataTypeSize>
+<ownDataTypeParameters>35,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="nombres" id="BFEF4B1F-3B88-7CEE-C63E-8835EF357894">
+<createdBy>oliversaraguro</createdBy>
+<createdTime>2024-04-17 12:36:37 UTC</createdTime>
+<ownerDesignName>ModeloAlquilerBicicletas</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>35</dataTypeSize>
+<ownDataTypeParameters>35,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="direccion" id="C03FF9B8-89DC-7587-3DB1-6C132D28B94C">
+<createdBy>oliversaraguro</createdBy>
+<createdTime>2024-04-17 12:36:37 UTC</createdTime>
+<ownerDesignName>ModeloAlquilerBicicletas</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>300</dataTypeSize>
+<ownDataTypeParameters>300,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="email" id="F57A67CD-456F-E37C-6AE1-3F14A4AE9A56">
+<createdBy>oliversaraguro</createdBy>
+<createdTime>2024-04-17 12:36:37 UTC</createdTime>
+<ownerDesignName>ModeloAlquilerBicicletas</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20</dataTypeSize>
+<ownDataTypeParameters>20,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="telefono_1" id="B37E7777-5763-C13B-E3C2-834AA160E01E">
+<createdBy>oliversaraguro</createdBy>
+<createdTime>2024-04-17 13:18:47 UTC</createdTime>
+<ownerDesignName>ModeloAlquilerBicicletas</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>15</dataTypeSize>
+<ownDataTypeParameters>15,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="telefono_2" id="9CAC00AA-2476-E2A5-435D-45E702D4A139">
+<createdBy>oliversaraguro</createdBy>
+<createdTime>2024-04-17 13:18:47 UTC</createdTime>
+<ownerDesignName>ModeloAlquilerBicicletas</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>15</dataTypeSize>
+<ownDataTypeParameters>15,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="telefono_3" id="47692F5B-FEA9-EE6E-B10F-58C5485F7C67">
+<createdBy>oliversaraguro</createdBy>
+<createdTime>2024-04-17 13:18:47 UTC</createdTime>
+<ownerDesignName>ModeloAlquilerBicicletas</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>15</dataTypeSize>
+<ownDataTypeParameters>15,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="31405E39-182A-13C1-F9CD-CBC84710CDEF" name="usuario_PK">
+<createdBy>oliversaraguro</createdBy>
+<createdTime>2024-04-17 12:36:37 UTC</createdTime>
+<ownerDesignName>ModeloAlquilerBicicletas</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="99EF4AFD-1531-8A37-573B-F01649599FAE"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

@@ -1,0 +1,128 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="978A8FB3-C56B-3923-A9F6-67F2DB982734" name="Clase">
+<createdBy>Denis</createdBy>
+<createdTime>2024-05-08 02:50:33 UTC</createdTime>
+<ownerDesignName>EscuelaArtesMarciales</ownerDesignName>
+<ordsAlias>table_10</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="idClase" id="930DAF33-D1A3-7DCF-9E63-1D834F07FC82">
+<createdBy>Denis</createdBy>
+<createdTime>2024-05-08 02:51:30 UTC</createdTime>
+<ownerDesignName>EscuelaArtesMarciales</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>15</dataTypeSize>
+<ownDataTypeParameters>15,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="nombre" id="1A93870F-3A02-83C5-A0A0-F8A7D45C55C9">
+<createdBy>oliversaraguro</createdBy>
+<createdTime>2024-05-11 02:06:04 UTC</createdTime>
+<ownerDesignName>EscuelaArtesMarciales</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="descripcion" id="A35CF77B-7F2E-0280-77C6-7F3202B3D16C">
+<createdBy>oliversaraguro</createdBy>
+<createdTime>2024-05-11 02:06:27 UTC</createdTime>
+<ownerDesignName>EscuelaArtesMarciales</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>500</dataTypeSize>
+<ownDataTypeParameters>500,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="nivel" id="4AA67020-2C28-CD47-2145-D84D5546952B">
+<createdBy>Denis</createdBy>
+<createdTime>2024-05-10 03:20:13 UTC</createdTime>
+<ownerDesignName>EscuelaArtesMarciales</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20</dataTypeSize>
+<ownDataTypeParameters>20,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="hora" id="C0BDA9F3-F2A5-91DA-CC28-86D734F7499F">
+<createdBy>Denis</createdBy>
+<createdTime>2024-05-08 02:55:29 UTC</createdTime>
+<ownerDesignName>EscuelaArtesMarciales</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT014</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="fecha" id="7F3E175A-6588-4081-8B02-6F51EF2A650E">
+<createdBy>Denis</createdBy>
+<createdTime>2024-05-10 03:03:48 UTC</createdTime>
+<ownerDesignName>EscuelaArtesMarciales</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="diaSemana" id="394D0839-BC83-0C88-3694-80E6D778F928">
+<createdBy>Denis</createdBy>
+<createdTime>2024-05-08 02:55:29 UTC</createdTime>
+<ownerDesignName>EscuelaArtesMarciales</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20</dataTypeSize>
+<ownDataTypeParameters>20,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="idSalon" id="81B068A1-7BBF-F582-EFC9-EAB3FB51918F">
+<createdBy>Denis</createdBy>
+<createdTime>2024-05-08 16:50:44 UTC</createdTime>
+<ownerDesignName>EscuelaArtesMarciales</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="79D70BA2-DD2D-D0B9-7868-BDD5F40BF542" referredColumn="4A7940A2-171A-5B2D-2BC5-F89D6F7861C4"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="1FA1BE38-84A7-E090-EF9D-AB758D7CD60F" name="Clase_PK">
+<createdBy>Denis</createdBy>
+<createdTime>2024-05-08 02:51:30 UTC</createdTime>
+<ownerDesignName>EscuelaArtesMarciales</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="930DAF33-D1A3-7DCF-9E63-1D834F07FC82"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="CE6B9516-D831-ECC3-6945-45E700F908C7" name="Clase_Salon_FK">
+<createdBy>Denis</createdBy>
+<createdTime>2024-05-08 16:50:44 UTC</createdTime>
+<ownerDesignName>EscuelaArtesMarciales</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="81B068A1-7BBF-F582-EFC9-EAB3FB51918F"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

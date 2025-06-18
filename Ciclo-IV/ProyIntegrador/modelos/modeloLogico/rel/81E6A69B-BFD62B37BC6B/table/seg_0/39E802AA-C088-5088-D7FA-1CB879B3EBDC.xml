@@ -1,0 +1,249 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="39E802AA-C088-5088-D7FA-1CB879B3EBDC" name="Detencion">
+<createdBy>oliversaraguro</createdBy>
+<createdTime>2024-06-26 14:55:32 UTC</createdTime>
+<ownerDesignName>modeloLogico</ownerDesignName>
+<ordsAlias>table_2</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="codigo" id="982F8389-5B38-F7E0-3B5A-C8A478893EBD">
+<createdBy>oliversaraguro</createdBy>
+<createdTime>2024-06-26 14:57:32 UTC</createdTime>
+<ownerDesignName>modeloLogico</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="tipo" id="0EC6E379-21A7-A610-D935-FA0F78B1E042">
+<createdBy>oliversaraguro</createdBy>
+<createdTime>2024-06-26 19:35:14 UTC</createdTime>
+<ownerDesignName>modeloLogico</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20</dataTypeSize>
+<ownDataTypeParameters>20,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="codigo_iccs" id="62D94B62-95E9-15C3-2709-FFE5C0280490">
+<createdBy>oliversaraguro</createdBy>
+<createdTime>2024-06-26 14:57:32 UTC</createdTime>
+<ownerDesignName>modeloLogico</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>10</dataTypeSize>
+<ownDataTypeParameters>10,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="presunta_infraccion" id="4F4EE380-221E-8CFE-5B13-19D224ED6342">
+<createdBy>oliversaraguro</createdBy>
+<createdTime>2024-06-26 14:57:32 UTC</createdTime>
+<ownerDesignName>modeloLogico</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>300</dataTypeSize>
+<ownDataTypeParameters>300,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="presunta_subinfraccion" id="4519F4CC-3EED-D0E5-F18D-F496FF18415C">
+<createdBy>oliversaraguro</createdBy>
+<createdTime>2024-06-26 14:57:32 UTC</createdTime>
+<ownerDesignName>modeloLogico</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>300</dataTypeSize>
+<ownDataTypeParameters>300,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="fecha_detencion_aprehension" id="FE5A3E01-100E-E91C-E086-9A9BA050F09B">
+<createdBy>oliversaraguro</createdBy>
+<createdTime>2024-06-26 14:57:32 UTC</createdTime>
+<ownerDesignName>modeloLogico</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="hora_detencion_aprehension" id="6885CD23-1846-470E-7599-AFE66679CF7D">
+<createdBy>oliversaraguro</createdBy>
+<createdTime>2024-06-26 14:57:32 UTC</createdTime>
+<ownerDesignName>modeloLogico</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT015</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="movilizacion" id="99A25DE9-3F06-B37C-72BD-D78AFF91361A">
+<createdBy>oliversaraguro</createdBy>
+<createdTime>2024-06-26 14:57:32 UTC</createdTime>
+<ownerDesignName>modeloLogico</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="presunta_flagrancia" id="8FE08FD7-CF61-73C0-5712-08192DBDE8D7">
+<createdBy>oliversaraguro</createdBy>
+<createdTime>2024-06-26 14:57:32 UTC</createdTime>
+<ownerDesignName>modeloLogico</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>5</dataTypeSize>
+<ownDataTypeParameters>5,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="condicion" id="AB6E6D3D-3C2B-BA22-B94B-369DD36D7F20">
+<createdBy>oliversaraguro</createdBy>
+<createdTime>2024-06-26 14:57:32 UTC</createdTime>
+<ownerDesignName>modeloLogico</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>200</dataTypeSize>
+<ownDataTypeParameters>200,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="presunta_modalidad" id="084CA004-E4E6-7A6F-EDA7-FF713712556C">
+<createdBy>oliversaraguro</createdBy>
+<createdTime>2024-06-26 19:33:56 UTC</createdTime>
+<ownerDesignName>modeloLogico</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>1000</dataTypeSize>
+<ownDataTypeParameters>1000,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Detenido_identificador" id="B87408FA-103F-42C3-FE1F-D502D1389937">
+<createdBy>oliversaraguro</createdBy>
+<createdTime>2024-06-26 15:05:59 UTC</createdTime>
+<ownerDesignName>modeloLogico</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="86EA5870-34F6-C07C-A120-4E1F74E87BDB" referredColumn="E86BA17A-EE78-83B7-4223-64AA220CFEF3"/>
+</associations>
+</Column>
+<Column name="Lugar_codigo" id="F26CC039-258F-081F-EDC7-7DFDF3889F7D">
+<createdBy>oliversaraguro</createdBy>
+<createdTime>2024-06-26 15:07:46 UTC</createdTime>
+<ownerDesignName>modeloLogico</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="FED07628-4753-127F-B6C5-9556EDFE85F8" referredColumn="0B5129FB-824E-17F2-FCD9-B0352C5AB76C"/>
+</associations>
+</Column>
+<Column name="Arma_codigo" id="A17D23F7-7EB8-FC6E-2B23-B3A0BD8B4CB7">
+<createdBy>oliversaraguro</createdBy>
+<createdTime>2024-06-26 15:07:56 UTC</createdTime>
+<ownerDesignName>modeloLogico</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="CA3CD68F-7893-DFF9-C426-370861C72D9C" referredColumn="6835D744-748F-D02D-B452-75D040641DB2"/>
+</associations>
+</Column>
+<Column name="Zona_codigo" id="81F94168-CB9F-9158-4BDE-CD617800CB71">
+<createdBy>oliversaraguro</createdBy>
+<createdTime>2024-06-26 15:50:31 UTC</createdTime>
+<ownerDesignName>modeloLogico</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="561F1C0F-5615-4FDA-1CBA-BAD8C49E1322" referredColumn="1ED15F2C-BE77-3B8E-A5F4-A2773A8BDDBD"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="4787A880-E8C1-A587-B374-F8C18C2D0ACD" name="Detencion_PK">
+<createdBy>oliversaraguro</createdBy>
+<createdTime>2024-06-26 14:57:32 UTC</createdTime>
+<ownerDesignName>modeloLogico</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="982F8389-5B38-F7E0-3B5A-C8A478893EBD"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="B4151969-6883-63DD-7D79-C3BCBBE7F82F" name="Detenido_FK">
+<createdBy>oliversaraguro</createdBy>
+<createdTime>2024-06-26 15:05:59 UTC</createdTime>
+<ownerDesignName>modeloLogico</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="B87408FA-103F-42C3-FE1F-D502D1389937"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="46C3B672-F509-50DA-637D-77CBC913E598" name="Lugar_FK">
+<createdBy>oliversaraguro</createdBy>
+<createdTime>2024-06-26 15:07:46 UTC</createdTime>
+<ownerDesignName>modeloLogico</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="F26CC039-258F-081F-EDC7-7DFDF3889F7D"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="7DB8E844-2AAD-D19C-2C40-6F86DE4E9BCC" name="Arma_FK">
+<createdBy>oliversaraguro</createdBy>
+<createdTime>2024-06-26 15:07:56 UTC</createdTime>
+<ownerDesignName>modeloLogico</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="A17D23F7-7EB8-FC6E-2B23-B3A0BD8B4CB7"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="AE4ED0B1-C89B-CA27-E691-12EAC59D2364" name="Zona_FK">
+<createdBy>oliversaraguro</createdBy>
+<createdTime>2024-06-26 15:50:31 UTC</createdTime>
+<ownerDesignName>modeloLogico</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="81F94168-CB9F-9158-4BDE-CD617800CB71"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

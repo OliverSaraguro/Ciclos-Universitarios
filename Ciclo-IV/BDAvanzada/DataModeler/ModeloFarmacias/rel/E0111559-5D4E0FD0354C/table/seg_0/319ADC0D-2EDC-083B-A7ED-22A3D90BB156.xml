@@ -1,0 +1,113 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="319ADC0D-2EDC-083B-A7ED-22A3D90BB156" name="MedicamentoLaboratorio">
+<createdBy>oliversaraguro</createdBy>
+<createdTime>2024-04-19 23:39:17 UTC</createdTime>
+<ownerDesignName>ModeloFarmacias</ownerDesignName>
+<ordsAlias>table_13</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="idMedicamentoLaboratorio" id="E370207C-8695-2BA5-6843-F30DD44D1552">
+<createdBy>oliversaraguro</createdBy>
+<createdTime>2024-04-19 23:41:01 UTC</createdTime>
+<ownerDesignName>ModeloFarmacias</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="fechaContrato" id="6ECD2ED1-0517-6DA2-45D9-18D7821F7B43">
+<createdBy>oliversaraguro</createdBy>
+<createdTime>2024-04-20 18:58:19 UTC</createdTime>
+<ownerDesignName>ModeloFarmacias</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="cantidadProducida" id="777A8248-23F8-D724-4B51-EB79DD4D4F38">
+<createdBy>oliversaraguro</createdBy>
+<createdTime>2024-04-19 23:41:01 UTC</createdTime>
+<ownerDesignName>ModeloFarmacias</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="precioProduccion" id="9E938B8C-A1E7-10FD-10C9-141B9AD1C24B">
+<createdBy>oliversaraguro</createdBy>
+<createdTime>2024-04-20 18:58:19 UTC</createdTime>
+<ownerDesignName>ModeloFarmacias</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT021</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Medicamento_idMedicamento" id="8B736C9B-6A6F-4326-53F0-691C37D6A5E5">
+<createdBy>oliversaraguro</createdBy>
+<createdTime>2024-04-19 23:41:19 UTC</createdTime>
+<ownerDesignName>ModeloFarmacias</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="B138779F-DA70-567C-98E2-D0AEF5FE79CF" referredColumn="E7516A9D-C9C1-D257-080E-04BEA55C7ED5"/>
+</associations>
+</Column>
+<Column name="Laboratorio_idLaboratorio" id="A3CDF1A1-F9CD-DA25-343B-DD00245AD354">
+<createdBy>oliversaraguro</createdBy>
+<createdTime>2024-04-19 23:41:25 UTC</createdTime>
+<ownerDesignName>ModeloFarmacias</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="C7439F46-4CDE-D24C-C193-D7E8EC93826E" referredColumn="C2FB851B-6294-6E75-4E81-4C88304A0952"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="05D7F75C-4ACA-2467-93DB-1B9F54601814" name="MedicamentoLaboratorio_PK">
+<createdBy>oliversaraguro</createdBy>
+<createdTime>2024-04-19 23:41:01 UTC</createdTime>
+<ownerDesignName>ModeloFarmacias</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="E370207C-8695-2BA5-6843-F30DD44D1552"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="B165ACD4-4B5F-8C3E-044D-63B6DAA0D264" name="MedicamentoLaboratorio_Medicamento_FK">
+<createdBy>oliversaraguro</createdBy>
+<createdTime>2024-04-19 23:41:19 UTC</createdTime>
+<ownerDesignName>ModeloFarmacias</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="8B736C9B-6A6F-4326-53F0-691C37D6A5E5"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="AC2206C3-B7B8-BF40-FB05-6F829FD6DD99" name="MedicamentoLaboratorio_laboratorio_FK">
+<createdBy>oliversaraguro</createdBy>
+<createdTime>2024-04-19 23:41:25 UTC</createdTime>
+<ownerDesignName>ModeloFarmacias</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="A3CDF1A1-F9CD-DA25-343B-DD00245AD354"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

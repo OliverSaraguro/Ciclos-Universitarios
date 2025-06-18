@@ -1,0 +1,16 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="437D029F-240A-BB69-B6B4-60D6F91CF660" containerWithKeyObject="9BAED4C2-DD63-57D7-E0A6-403B821EFE6B" localFKIndex="909AA958-35CF-C5F8-95AD-D8A0795CE50D" name="Instructor_Persona_FK">
+<createdBy>oliversaraguro</createdBy>
+<createdTime>2024-05-11 02:03:46 UTC</createdTime>
+<ownerDesignName>EscuelaArtesMarciales</ownerDesignName>
+<referredTableLongName>Persona</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>C957145C-49B8-8081-1082-2B9642B7BAD5</referredTableID>
+<keyObject>763DC6A1-5A6E-E449-45FC-9683D82091FE</keyObject>
+<referredKeyID>763DC6A1-5A6E-E449-45FC-9683D82091FE</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>cedula</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

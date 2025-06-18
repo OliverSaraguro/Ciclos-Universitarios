@@ -1,0 +1,41 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<TableProxyOraclev11g class="oracle.dbtools.crest.model.design.storage.oracle.v11g.TableProxyOraclev11g" name="Rango" directorySegmentName="seg_0" id="59B89351-7811-428A-1862-3B4B3B52DF14">
+<createdBy>oliversaraguro</createdBy>
+<createdTime>2024-05-11 02:46:28 UTC</createdTime>
+<ownerDesignName>EscuelaArtesMarciales</ownerDesignName>
+<logging>YES</logging>
+<partitionedRowMovement>DISABLE</partitionedRowMovement>
+<temporaryChanged>false</temporaryChanged>
+<accessDriverType>oracle_loader</accessDriverType>
+<rejectLimit></rejectLimit>
+<columnProxies itemClass="oracle.dbtools.crest.model.design.storage.oracle.v12c.ColumnProxyOraclev12c">
+<ColumnProxy name="descripcion" id="447AF346-AD4A-9415-4AF1-48D2BAFD3FDC">
+<createdBy>oliversaraguro</createdBy>
+<createdTime>2024-05-11 02:46:28 UTC</createdTime>
+<ownerDesignName>EscuelaArtesMarciales</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="idRango" id="673031F4-573D-7929-7E2C-4ED876C67783">
+<createdBy>oliversaraguro</createdBy>
+<createdTime>2024-05-11 02:46:28 UTC</createdTime>
+<ownerDesignName>EscuelaArtesMarciales</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="colorCinta" id="8DDFDFC8-8E13-4FB2-CCF4-0930DABFD144">
+<createdBy>oliversaraguro</createdBy>
+<createdTime>2024-05-11 02:46:28 UTC</createdTime>
+<ownerDesignName>EscuelaArtesMarciales</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="nombreRango" id="B0CFA009-89BC-EA79-D6E7-7E320716142C">
+<createdBy>oliversaraguro</createdBy>
+<createdTime>2024-05-11 02:46:28 UTC</createdTime>
+<ownerDesignName>EscuelaArtesMarciales</ownerDesignName>
+</ColumnProxy>
+</columnProxies>
+<primaryKeys>
+<PrimaryKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.PKProxyOraclev10g" name="Rango_PK" id="830EDBB3-B53A-5C82-EB2F-CD09FA27F8E2">
+<createdBy>oliversaraguro</createdBy>
+<createdTime>2024-05-11 02:46:28 UTC</createdTime>
+<ownerDesignName>EscuelaArtesMarciales</ownerDesignName>
+<indexSort>SORTED</indexSort>
+</PrimaryKey>
+</primaryKeys>
+</TableProxyOraclev11g>

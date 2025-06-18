@@ -1,0 +1,166 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="81FA969D-B2D7-BEE5-842F-0062097DBD57" name="Detenido">
+<createdBy>oliversaraguro</createdBy>
+<createdTime>2024-06-26 14:52:44 UTC</createdTime>
+<ownerDesignName>modeloLogico</ownerDesignName>
+<ordsAlias>table_1</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="identificador" id="E86BA17A-EE78-83B7-4223-64AA220CFEF3">
+<createdBy>oliversaraguro</createdBy>
+<createdTime>2024-06-26 14:55:26 UTC</createdTime>
+<ownerDesignName>modeloLogico</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="edad" id="5A84742A-F151-976E-220B-9A1D52B34A71">
+<createdBy>oliversaraguro</createdBy>
+<createdTime>2024-06-26 14:55:26 UTC</createdTime>
+<ownerDesignName>modeloLogico</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="sexo" id="A1697484-19EA-8B39-B320-3DDDCA1E59CD">
+<createdBy>oliversaraguro</createdBy>
+<createdTime>2024-06-26 14:55:26 UTC</createdTime>
+<ownerDesignName>modeloLogico</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>15</dataTypeSize>
+<ownDataTypeParameters>15,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="autoidentificacion_etnica" id="6BE38027-B717-9567-487A-7E7FC007947D">
+<createdBy>oliversaraguro</createdBy>
+<createdTime>2024-06-26 14:55:26 UTC</createdTime>
+<ownerDesignName>modeloLogico</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="estatus_migratorio" id="D12B8781-781E-47EA-2EED-9E6A0E40B28B">
+<createdBy>oliversaraguro</createdBy>
+<createdTime>2024-06-26 14:55:26 UTC</createdTime>
+<ownerDesignName>modeloLogico</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>15</dataTypeSize>
+<ownDataTypeParameters>15,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="numero_detenciones" id="45244C3A-653B-8FA1-31C5-393D24512563">
+<createdBy>oliversaraguro</createdBy>
+<createdTime>2024-06-26 14:55:26 UTC</createdTime>
+<ownerDesignName>modeloLogico</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="estado_civil" id="21C26853-E49D-F117-F72A-54898882BE06">
+<createdBy>oliversaraguro</createdBy>
+<createdTime>2024-06-26 14:55:26 UTC</createdTime>
+<ownerDesignName>modeloLogico</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20</dataTypeSize>
+<ownDataTypeParameters>20,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="nivel_instruccion" id="62851898-2C50-8B5E-FBEF-DFE1DAE6E265">
+<createdBy>oliversaraguro</createdBy>
+<createdTime>2024-06-26 14:55:26 UTC</createdTime>
+<ownerDesignName>modeloLogico</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Nacionalidad_siglas" id="3C2C75C9-3EE6-9F19-C9D9-E0FE5D52B21E">
+<createdBy>oliversaraguro</createdBy>
+<createdTime>2024-06-26 15:07:21 UTC</createdTime>
+<ownerDesignName>modeloLogico</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>5</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="6019357E-2744-2E14-6927-96A959D148EA" referredColumn="6A13E639-E08E-15CF-123D-D4100F60B5BC"/>
+</associations>
+</Column>
+<Column name="Genero_codigo" id="F1731A7A-D94F-9582-865D-B01ED569603F">
+<createdBy>oliversaraguro</createdBy>
+<createdTime>2024-06-26 16:43:23 UTC</createdTime>
+<ownerDesignName>modeloLogico</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="506AEE37-B40E-6F53-C3AD-2158DB80C20C" referredColumn="D52925B9-CC0A-F941-C361-3B8479FA53E9"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="17E81228-66E8-88D0-C8E4-2F286BCA1154" name="Detenido_PK">
+<createdBy>oliversaraguro</createdBy>
+<createdTime>2024-06-26 14:55:27 UTC</createdTime>
+<ownerDesignName>modeloLogico</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="E86BA17A-EE78-83B7-4223-64AA220CFEF3"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="EEA38F55-9387-2810-B826-0596C3BB7D3D" name="Nacionalidad_FK">
+<createdBy>oliversaraguro</createdBy>
+<createdTime>2024-06-26 15:07:21 UTC</createdTime>
+<ownerDesignName>modeloLogico</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="3C2C75C9-3EE6-9F19-C9D9-E0FE5D52B21E"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="7C69E792-C735-1A2A-1729-06F9BD0A8D33" name="Genero_FK">
+<createdBy>oliversaraguro</createdBy>
+<createdTime>2024-06-26 16:43:23 UTC</createdTime>
+<ownerDesignName>modeloLogico</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="F1731A7A-D94F-9582-865D-B01ED569603F"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

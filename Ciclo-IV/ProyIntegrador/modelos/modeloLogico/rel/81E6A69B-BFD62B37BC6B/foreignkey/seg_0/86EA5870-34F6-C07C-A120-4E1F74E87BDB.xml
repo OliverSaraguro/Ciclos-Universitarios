@@ -1,0 +1,16 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="86EA5870-34F6-C07C-A120-4E1F74E87BDB" containerWithKeyObject="39E802AA-C088-5088-D7FA-1CB879B3EBDC" localFKIndex="B4151969-6883-63DD-7D79-C3BCBBE7F82F" name="Detenido_FK">
+<createdBy>oliversaraguro</createdBy>
+<createdTime>2024-06-26 15:05:59 UTC</createdTime>
+<ownerDesignName>modeloLogico</ownerDesignName>
+<referredTableLongName>Detenido</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>81FA969D-B2D7-BEE5-842F-0062097DBD57</referredTableID>
+<keyObject>17E81228-66E8-88D0-C8E4-2F286BCA1154</keyObject>
+<referredKeyID>17E81228-66E8-88D0-C8E4-2F286BCA1154</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>identificador</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

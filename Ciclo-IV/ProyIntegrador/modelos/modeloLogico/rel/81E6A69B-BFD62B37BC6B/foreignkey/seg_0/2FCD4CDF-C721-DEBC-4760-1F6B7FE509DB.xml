@@ -1,0 +1,16 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="2FCD4CDF-C721-DEBC-4760-1F6B7FE509DB" containerWithKeyObject="6589DCC6-53D2-578D-25DE-D89148950DC6" localFKIndex="382977C4-1160-F333-B63F-407E3E940083" name="canton_FK">
+<createdBy>oliversaraguro</createdBy>
+<createdTime>2024-06-26 16:01:33 UTC</createdTime>
+<ownerDesignName>modeloLogico</ownerDesignName>
+<referredTableLongName>Canton</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>D43FD6C8-D51F-6425-3819-F9EC55ECB0A3</referredTableID>
+<keyObject>A154FA26-85E2-90B5-E7B2-C0EA4A95DA71</keyObject>
+<referredKeyID>A154FA26-85E2-90B5-E7B2-C0EA4A95DA71</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>codigo</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

@@ -1,0 +1,8 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<OSDM_Design class="oracle.dbtools.crest.model.design.Design" name="ModeloAlquilerBicicletas" id="DAEF23D6-2032-D630-BE9F-89728DB70ECB" version="3.5">
+<createdBy>oliversaraguro</createdBy>
+<createdTime>2024-04-17 12:24:16 UTC</createdTime>
+<ownerDesignName>ModeloAlquilerBicicletas</ownerDesignName>
+<capitalNames>false</capitalNames>
+<designId>DAEF23D6-2032-D630-BE9F-89728DB70ECB</designId>
+</OSDM_Design>

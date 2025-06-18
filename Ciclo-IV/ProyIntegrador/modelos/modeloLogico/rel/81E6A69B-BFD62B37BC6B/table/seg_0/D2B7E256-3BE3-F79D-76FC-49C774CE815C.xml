@@ -1,0 +1,125 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="D2B7E256-3BE3-F79D-76FC-49C774CE815C" name="DatosEstadisticos">
+<createdBy>oliversaraguro</createdBy>
+<createdTime>2024-06-26 15:42:42 UTC</createdTime>
+<ownerDesignName>modeloLogico</ownerDesignName>
+<ordsAlias>table_9</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="codigo" id="591FEAC2-7A94-D914-09A2-22F90F31512D">
+<createdBy>oliversaraguro</createdBy>
+<createdTime>2024-06-26 15:43:57 UTC</createdTime>
+<ownerDesignName>modeloLogico</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="anio" id="0632FD82-8BB3-4870-87DF-7F71314F71D6">
+<createdBy>oliversaraguro</createdBy>
+<createdTime>2024-06-26 15:43:57 UTC</createdTime>
+<ownerDesignName>modeloLogico</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="tasaDesempleo" id="870F9CD4-66A2-45F7-A72E-7D83FB500CA5">
+<createdBy>oliversaraguro</createdBy>
+<createdTime>2024-06-26 15:43:57 UTC</createdTime>
+<ownerDesignName>modeloLogico</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT021</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="tasaPobreza" id="7F4E9945-F3FE-AC05-7297-2F6A67422990">
+<createdBy>oliversaraguro</createdBy>
+<createdTime>2024-06-26 15:43:57 UTC</createdTime>
+<ownerDesignName>modeloLogico</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT021</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="tasaNoEstudiadas" id="96A4F988-0017-30B5-BFA3-B81B89EC786A">
+<createdBy>oliversaraguro</createdBy>
+<createdTime>2024-06-26 15:43:57 UTC</createdTime>
+<ownerDesignName>modeloLogico</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT021</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="nmroHomicidios" id="FA6AA573-0880-BECA-E6A3-3097262478DD">
+<createdBy>oliversaraguro</createdBy>
+<createdTime>2024-06-26 15:43:57 UTC</createdTime>
+<ownerDesignName>modeloLogico</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="nmroFemicidios" id="CF8D2354-2673-CCDD-BE00-84E803140829">
+<createdBy>oliversaraguro</createdBy>
+<createdTime>2024-06-26 15:43:57 UTC</createdTime>
+<ownerDesignName>modeloLogico</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Provincia_codigo" id="13FA8CE0-754C-1027-1ADE-CEE57E307312">
+<createdBy>oliversaraguro</createdBy>
+<createdTime>2024-06-26 16:00:13 UTC</createdTime>
+<ownerDesignName>modeloLogico</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="0FAD22F0-7AA0-2880-894E-DC41A4E34B22" referredColumn="80A717E9-4CF6-610C-C65E-EB96F35F33A0"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="A9430CE1-6864-03E9-A204-72469064BDBA" name="DatosEstadisticos_PK">
+<createdBy>oliversaraguro</createdBy>
+<createdTime>2024-06-26 15:43:57 UTC</createdTime>
+<ownerDesignName>modeloLogico</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="591FEAC2-7A94-D914-09A2-22F90F31512D"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="57CE6ED3-25B3-6AE7-7596-6FF9A7CBFAC2" name="Provincia_FK">
+<createdBy>oliversaraguro</createdBy>
+<createdTime>2024-06-26 16:00:13 UTC</createdTime>
+<ownerDesignName>modeloLogico</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="13FA8CE0-754C-1027-1ADE-CEE57E307312"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

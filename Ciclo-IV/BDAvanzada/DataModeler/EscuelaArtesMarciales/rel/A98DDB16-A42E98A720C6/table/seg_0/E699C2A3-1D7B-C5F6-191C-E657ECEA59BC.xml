@@ -1,0 +1,96 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="E699C2A3-1D7B-C5F6-191C-E657ECEA59BC" name="Asistencia_Estudiante">
+<createdBy>Denis</createdBy>
+<createdTime>2024-05-08 16:24:37 UTC</createdTime>
+<ownerDesignName>EscuelaArtesMarciales</ownerDesignName>
+<ordsAlias>table_10</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="idAsistencia" id="DAFBC626-8142-394A-C4AD-841E8EB7FA84">
+<createdBy>Denis</createdBy>
+<createdTime>2024-05-08 16:30:21 UTC</createdTime>
+<ownerDesignName>EscuelaArtesMarciales</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="idEstudiante" id="866EDB69-FDE0-05AE-5481-ECFB379BEFA6">
+<createdBy>Pablo</createdBy>
+<createdTime>2024-05-10 15:51:24 UTC</createdTime>
+<ownerDesignName>EscuelaArtesMarciales</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>10</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="9B9A11D8-04A2-A828-B7B8-3AB85F09CB23" referredColumn="030EBEBE-8CC7-5FF3-389E-CEFA319FF0E5"/>
+</associations>
+</Column>
+<Column name="idClase" id="C0D15318-EAB9-C493-96BD-B02766685AA7">
+<createdBy>Denis</createdBy>
+<createdTime>2024-05-08 16:49:08 UTC</createdTime>
+<ownerDesignName>EscuelaArtesMarciales</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>15</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="2357B704-EBC7-21D0-E161-1D427C07D764" referredColumn="930DAF33-D1A3-7DCF-9E63-1D834F07FC82"/>
+</associations>
+</Column>
+<Column name="presencia" id="2036052B-E559-1A03-0C95-B9F132D2FB67">
+<createdBy>Denis</createdBy>
+<createdTime>2024-05-10 03:01:32 UTC</createdTime>
+<ownerDesignName>EscuelaArtesMarciales</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT006</logicalDatatype>
+<dataTypeSize>1</dataTypeSize>
+<ownDataTypeParameters>1,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="3422613A-9FF6-0C23-7C72-94752CE881E0" name="Asistencia_Estudiante_PK">
+<createdBy>Denis</createdBy>
+<createdTime>2024-05-08 16:25:52 UTC</createdTime>
+<ownerDesignName>EscuelaArtesMarciales</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="DAFBC626-8142-394A-C4AD-841E8EB7FA84"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="F8EB6AA1-6EDF-271E-07F7-3A3E1E6A0AC4" name="Asistencia_Est_Clase_FK">
+<createdBy>Denis</createdBy>
+<createdTime>2024-05-08 16:49:08 UTC</createdTime>
+<ownerDesignName>EscuelaArtesMarciales</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="C0D15318-EAB9-C493-96BD-B02766685AA7"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="89E3BB6C-86FC-409E-13F2-40FFCB691F9B" name="Asistencia_Est_Estudiante_FK">
+<createdBy>Pablo</createdBy>
+<createdTime>2024-05-10 15:51:24 UTC</createdTime>
+<ownerDesignName>EscuelaArtesMarciales</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="866EDB69-FDE0-05AE-5481-ECFB379BEFA6"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

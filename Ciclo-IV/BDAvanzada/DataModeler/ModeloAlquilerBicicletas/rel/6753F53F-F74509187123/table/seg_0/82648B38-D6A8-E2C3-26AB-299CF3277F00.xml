@@ -1,0 +1,62 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="82648B38-D6A8-E2C3-26AB-299CF3277F00" name="tiulos">
+<createdBy>oliversaraguro</createdBy>
+<createdTime>2024-04-17 13:18:51 UTC</createdTime>
+<ownerDesignName>ModeloAlquilerBicicletas</ownerDesignName>
+<ordsAlias>table_10</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="usuario_cedula" id="87A3850E-BD76-626D-78A7-465F4654AAD5">
+<createdBy>oliversaraguro</createdBy>
+<createdTime>2024-04-17 13:19:28 UTC</createdTime>
+<ownerDesignName>ModeloAlquilerBicicletas</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>10</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="6A00660D-78B9-A393-C463-7DBCCA7FCA3D" referredColumn="99EF4AFD-1531-8A37-573B-F01649599FAE"/>
+</associations>
+</Column>
+<Column name="titulo" id="7B31B9F6-5139-6017-C0BB-62D5FB9199C6">
+<createdBy>oliversaraguro</createdBy>
+<createdTime>2024-04-17 13:20:35 UTC</createdTime>
+<ownerDesignName>ModeloAlquilerBicicletas</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="8C988CE9-5E44-A70B-BC9B-F7D596DDBE40" name="tiulos_PK">
+<createdBy>oliversaraguro</createdBy>
+<createdTime>2024-04-17 13:21:46 UTC</createdTime>
+<ownerDesignName>ModeloAlquilerBicicletas</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="87A3850E-BD76-626D-78A7-465F4654AAD5"/>
+<colUsage columnID="7B31B9F6-5139-6017-C0BB-62D5FB9199C6"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="6575CE46-9D67-0806-EC7E-D392E6754B12" name="tiulos_usuario_FK">
+<createdBy>oliversaraguro</createdBy>
+<createdTime>2024-04-17 13:19:28 UTC</createdTime>
+<ownerDesignName>ModeloAlquilerBicicletas</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="87A3850E-BD76-626D-78A7-465F4654AAD5"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

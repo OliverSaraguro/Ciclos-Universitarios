@@ -1,0 +1,16 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="18233A74-24E8-FB0A-C064-C9ADDA45BE03" containerWithKeyObject="A3A59135-78AC-108B-7C2C-680B64604510" localFKIndex="E33AABCC-D61A-A695-4830-6874C98F32A0" name="circuito_FK">
+<createdBy>oliversaraguro</createdBy>
+<createdTime>2024-06-26 16:02:15 UTC</createdTime>
+<ownerDesignName>modeloLogico</ownerDesignName>
+<referredTableLongName>Circuito</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>B2F351F1-768B-7C59-EB41-0CD80157C5C5</referredTableID>
+<keyObject>B4E90430-CDB3-E255-18D8-AF35558B32D0</keyObject>
+<referredKeyID>B4E90430-CDB3-E255-18D8-AF35558B32D0</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>codigo</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

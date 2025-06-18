@@ -1,0 +1,44 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="4047FDC1-DB87-35BC-7232-9C599A454DEE" name="Presentacion">
+<createdBy>oliversaraguro</createdBy>
+<createdTime>2024-04-19 20:18:57 UTC</createdTime>
+<ownerDesignName>ModeloFarmacias</ownerDesignName>
+<ordsAlias>table_8</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="idDescripcion" id="960C15D0-FDCA-C7BD-9C56-E6BDF1780DEE">
+<createdBy>oliversaraguro</createdBy>
+<createdTime>2024-04-19 20:20:38 UTC</createdTime>
+<ownerDesignName>ModeloFarmacias</ownerDesignName>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="descripcion" id="E38E95D7-ED9C-1414-1002-D786674DCA25">
+<createdBy>oliversaraguro</createdBy>
+<createdTime>2024-04-19 20:20:38 UTC</createdTime>
+<ownerDesignName>ModeloFarmacias</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100</dataTypeSize>
+<ownDataTypeParameters>100,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="50F59425-CA08-D684-20CB-CC28CBC0E066" name="Presentacion_PK">
+<createdBy>oliversaraguro</createdBy>
+<createdTime>2024-04-19 20:20:38 UTC</createdTime>
+<ownerDesignName>ModeloFarmacias</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="960C15D0-FDCA-C7BD-9C56-E6BDF1780DEE"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

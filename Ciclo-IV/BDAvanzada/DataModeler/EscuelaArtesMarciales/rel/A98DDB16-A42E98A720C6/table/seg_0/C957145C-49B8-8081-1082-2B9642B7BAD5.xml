@@ -1,0 +1,145 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="C957145C-49B8-8081-1082-2B9642B7BAD5" name="Persona">
+<createdBy>oliversaraguro</createdBy>
+<createdTime>2024-05-11 01:51:19 UTC</createdTime>
+<ownerDesignName>EscuelaArtesMarciales</ownerDesignName>
+<ordsAlias>table_11</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="cedula" id="6BCA37D2-8960-9D12-3336-546407D134D9">
+<createdBy>oliversaraguro</createdBy>
+<createdTime>2024-05-11 01:57:47 UTC</createdTime>
+<ownerDesignName>EscuelaArtesMarciales</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>15</dataTypeSize>
+<ownDataTypeParameters>15,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="nombre" id="65DD3A90-BCED-19AB-B260-3760B470EFF0">
+<createdBy>oliversaraguro</createdBy>
+<createdTime>2024-05-11 01:57:47 UTC</createdTime>
+<ownerDesignName>EscuelaArtesMarciales</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100</dataTypeSize>
+<ownDataTypeParameters>100,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="apellido" id="9DE418DD-63A0-444F-B7B6-1952FE2B5C1E">
+<createdBy>oliversaraguro</createdBy>
+<createdTime>2024-05-11 01:57:47 UTC</createdTime>
+<ownerDesignName>EscuelaArtesMarciales</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100</dataTypeSize>
+<ownDataTypeParameters>100,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="edad" id="A32B1155-49BD-EE06-C3CF-EF182B9F9AA7">
+<createdBy>oliversaraguro</createdBy>
+<createdTime>2024-05-11 02:24:44 UTC</createdTime>
+<ownerDesignName>EscuelaArtesMarciales</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="genero" id="85DCCD83-A24A-F735-9D8B-7D0C5F2698B3">
+<createdBy>oliversaraguro</createdBy>
+<createdTime>2024-05-11 02:22:43 UTC</createdTime>
+<ownerDesignName>EscuelaArtesMarciales</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>1</dataTypeSize>
+<ownDataTypeParameters>1,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="fechaNacimiento" id="63C4D76C-9CE6-3044-BA2B-5F6D68DEE160">
+<createdBy>oliversaraguro</createdBy>
+<createdTime>2024-05-11 01:57:47 UTC</createdTime>
+<ownerDesignName>EscuelaArtesMarciales</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="telefono" id="A65BFA4A-FABC-8214-0F48-5E15B929942F">
+<createdBy>oliversaraguro</createdBy>
+<createdTime>2024-05-11 01:57:47 UTC</createdTime>
+<ownerDesignName>EscuelaArtesMarciales</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="correo" id="98FA9896-EF1A-6AE0-1AED-4D2F966C0E0C">
+<createdBy>oliversaraguro</createdBy>
+<createdTime>2024-05-11 01:57:47 UTC</createdTime>
+<ownerDesignName>EscuelaArtesMarciales</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Escuela_idEscuela" id="85F7CDB8-8A41-A801-17E8-1274247CC561">
+<createdBy>oliversaraguro</createdBy>
+<createdTime>2024-05-11 02:12:18 UTC</createdTime>
+<ownerDesignName>EscuelaArtesMarciales</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="A543543E-1444-2CA8-F1D6-58BC9F600648" referredColumn="270FC033-9CBD-3C42-E5D3-7684EAE08E6C"/>
+</associations>
+</Column>
+<Column name="fechaUnion" id="0576F414-FF31-81AC-B07B-AEF0C39633C5">
+<createdBy>oliversaraguro</createdBy>
+<createdTime>2024-05-11 02:13:29 UTC</createdTime>
+<ownerDesignName>EscuelaArtesMarciales</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="763DC6A1-5A6E-E449-45FC-9683D82091FE" name="Persona_PK">
+<createdBy>oliversaraguro</createdBy>
+<createdTime>2024-05-11 01:57:47 UTC</createdTime>
+<ownerDesignName>EscuelaArtesMarciales</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="6BCA37D2-8960-9D12-3336-546407D134D9"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="5D64486F-CCEA-16C6-0C35-B64A6C0B53EB" name="Persona_Escuela_FK">
+<createdBy>oliversaraguro</createdBy>
+<createdTime>2024-05-11 02:12:18 UTC</createdTime>
+<ownerDesignName>EscuelaArtesMarciales</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="85F7CDB8-8A41-A801-17E8-1274247CC561"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

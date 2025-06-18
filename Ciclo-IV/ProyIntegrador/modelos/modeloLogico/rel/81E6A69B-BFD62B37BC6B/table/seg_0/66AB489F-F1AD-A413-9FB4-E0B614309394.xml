@@ -1,0 +1,71 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="66AB489F-F1AD-A413-9FB4-E0B614309394" name="Subzona">
+<createdBy>oliversaraguro</createdBy>
+<createdTime>2024-06-26 15:40:56 UTC</createdTime>
+<ownerDesignName>modeloLogico</ownerDesignName>
+<ordsAlias>table_8</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="codigo" id="604C7D7C-4F5D-DB8F-2630-6DFBCA7D207B">
+<createdBy>oliversaraguro</createdBy>
+<createdTime>2024-06-26 15:42:37 UTC</createdTime>
+<ownerDesignName>modeloLogico</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="nombre" id="E223EEE5-84AF-2F78-F538-846ECFBABDED">
+<createdBy>oliversaraguro</createdBy>
+<createdTime>2024-06-26 15:42:37 UTC</createdTime>
+<ownerDesignName>modeloLogico</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Zona_codigo" id="4C05F6EC-D0AA-B569-6DB0-14F8D288AD4C">
+<createdBy>oliversaraguro</createdBy>
+<createdTime>2024-06-26 15:59:55 UTC</createdTime>
+<ownerDesignName>modeloLogico</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="4C73A762-BF49-3514-598E-88CE5132C108" referredColumn="1ED15F2C-BE77-3B8E-A5F4-A2773A8BDDBD"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="08E72B2B-5327-50F9-3849-7FAD7AF86B10" name="Subzona_PK">
+<createdBy>oliversaraguro</createdBy>
+<createdTime>2024-06-26 15:42:37 UTC</createdTime>
+<ownerDesignName>modeloLogico</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="604C7D7C-4F5D-DB8F-2630-6DFBCA7D207B"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="06385B3B-9862-F461-4C7C-7117D13B8BFF" name="Zona_FKv1">
+<createdBy>oliversaraguro</createdBy>
+<createdTime>2024-06-26 15:59:55 UTC</createdTime>
+<ownerDesignName>modeloLogico</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="4C05F6EC-D0AA-B569-6DB0-14F8D288AD4C"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

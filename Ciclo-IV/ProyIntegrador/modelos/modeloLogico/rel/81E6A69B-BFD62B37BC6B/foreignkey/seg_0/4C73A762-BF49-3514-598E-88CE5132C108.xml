@@ -1,0 +1,16 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="4C73A762-BF49-3514-598E-88CE5132C108" containerWithKeyObject="66AB489F-F1AD-A413-9FB4-E0B614309394" localFKIndex="06385B3B-9862-F461-4C7C-7117D13B8BFF" name="Zona_FKv1">
+<createdBy>oliversaraguro</createdBy>
+<createdTime>2024-06-26 15:59:55 UTC</createdTime>
+<ownerDesignName>modeloLogico</ownerDesignName>
+<referredTableLongName>Zona</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>669F07A5-0022-76DF-2D04-8D2485C407DA</referredTableID>
+<keyObject>AE47323E-9338-CEFA-2486-B8F6B1DE26C6</keyObject>
+<referredKeyID>AE47323E-9338-CEFA-2486-B8F6B1DE26C6</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>codigo</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

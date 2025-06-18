@@ -1,0 +1,67 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="FC0275BA-0835-BB48-F473-3940485CE3C9" name="Ciudad">
+<createdBy>oliversaraguro</createdBy>
+<createdTime>2024-04-19 19:50:15 UTC</createdTime>
+<ownerDesignName>ModeloFarmacias</ownerDesignName>
+<ordsAlias>table_1</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="idCiudad" id="060B4FB8-E029-4E97-0E75-F4FE3C0F8397">
+<createdBy>oliversaraguro</createdBy>
+<createdTime>2024-04-19 19:51:54 UTC</createdTime>
+<ownerDesignName>ModeloFarmacias</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="nombreCiudad" id="7D8C4092-EB68-177B-3DC9-926709E98D75">
+<createdBy>oliversaraguro</createdBy>
+<createdTime>2024-04-19 19:51:54 UTC</createdTime>
+<ownerDesignName>ModeloFarmacias</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>40</dataTypeSize>
+<ownDataTypeParameters>40,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="pais" id="D49F4B37-000F-5295-EEBB-46D988738A9A">
+<createdBy>oliversaraguro</createdBy>
+<createdTime>2024-04-19 19:51:54 UTC</createdTime>
+<ownerDesignName>ModeloFarmacias</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>40</dataTypeSize>
+<ownDataTypeParameters>40,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="codgifoPostal" id="F9AD743C-FBBB-BD52-A2AF-4D5D168BBD16">
+<createdBy>oliversaraguro</createdBy>
+<createdTime>2024-04-19 19:54:33 UTC</createdTime>
+<ownerDesignName>ModeloFarmacias</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="2A3F379D-681C-40E7-D2A5-76D4AB0E86B1" name="Ciudad_PK">
+<createdBy>oliversaraguro</createdBy>
+<createdTime>2024-04-19 19:51:54 UTC</createdTime>
+<ownerDesignName>ModeloFarmacias</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="060B4FB8-E029-4E97-0E75-F4FE3C0F8397"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>
