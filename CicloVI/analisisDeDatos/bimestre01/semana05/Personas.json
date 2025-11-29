@@ -1,0 +1,31 @@
+[{
+  "cedula": "1111111111",
+  "nombre": "juan",
+  "telefono": [
+    "0978786767",
+    "0728938293"
+  ],
+  "sueldo": 1200
+},{
+  "cedula": "2222222222",
+  "nombre": "maria",
+  "telefono": [
+    "027428483",
+    "0983764552"
+  ],
+  "sueldo": 1230.34,
+  "titulo": {
+      "denominacion": "Arquitecto",
+      "anio": 1990
+  }
+},{
+  "cedula": "3333333333",
+  "nombre": "pedro",
+  "telefono": "0498263541",
+  "titulo": {
+      "denominacion": "Ingeniero en informática",
+      "anio": 2000
+  },
+  "email": "pedro@mail.com"
+}]
+
